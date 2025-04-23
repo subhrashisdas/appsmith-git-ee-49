@@ -1,0 +1,12 @@
+{
+    "PatientPersonalInfo": {
+        "FirstName": {{ this.params.patient_first_name }},
+        "LastName": {{ this.params.patient_last_name }},
+        "DateOfBirth": {{ this.params.patient_dob }},
+      	"Gender": {{ this.params.patient_gender }},  
+				"Zipcode": {{ this.params.patient_zip }}
+    },
+    "CardRequestInfo": {
+        "Type": ""
+    }
+}

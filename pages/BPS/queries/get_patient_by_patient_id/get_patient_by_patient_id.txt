@@ -1,0 +1,1 @@
+SELECT TOP 1 * FROM dbo.copay_patients WHERE patient_id = {{this.params.patient_id}}

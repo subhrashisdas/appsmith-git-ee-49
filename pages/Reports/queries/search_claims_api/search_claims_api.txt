@@ -1,0 +1,4 @@
+{
+	"from_date_of_service": {{this.params.from_date_of_service}},
+	"to_date_of_service": {{this.params.to_date_of_service}}
+}

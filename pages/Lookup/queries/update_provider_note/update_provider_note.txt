@@ -1,0 +1,6 @@
+UPDATE ProviderNotes
+  SET user_name = {{ this.params.user_name }},
+	    disposition = {{ this.params.disposition }}, 
+	 		notes = {{ this.params.notes }}, 
+			created = {{ this.params.created }}
+  WHERE id = {{ this.params.notes_id }};

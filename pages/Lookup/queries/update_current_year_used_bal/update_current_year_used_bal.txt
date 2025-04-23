@@ -1,0 +1,8 @@
+{
+    
+    "patient_id": 197778,
+    "member_id": "1146908172",
+    "enrollment_status": "Inactive",
+    "current_year_used": 5.00
+    
+}

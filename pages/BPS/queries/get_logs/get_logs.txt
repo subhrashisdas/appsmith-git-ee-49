@@ -1,0 +1,1 @@
+SELECT TOP 100 * FROM dbo.ChangeLogs WHERE created >= '2024-01-02' AND action_type = 'Update Patient Member Group 100073A'

@@ -1,0 +1,15 @@
+INSERT INTO PatientAttestation
+  (user_name, patient_id, provider_npi, spoke_with, covered_by_government_insurance, date_of_attestation, provider_type, demographic_confirmed, attest_to_not_use_gov_reimbursement)
+VALUES
+  (
+    {{ this.params.user_name }},
+    {{ this.params.patient_id }},
+    {{ this.params.provider_npi }},
+		{{ this.params.spoke_with }},
+		{{ this.params.covered_by_government_insurance }},
+		{{ this.params.date_of_attestation }},
+		{{ this.params.provider_type }},
+		{{ this.params.demographic_confirmed }},
+		{{ this.params.attest_to_not_use_gov_reimbursement }}
+		
+  );

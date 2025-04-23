@@ -1,0 +1,1 @@
+INSERT INTO dbo.ErrorLogs (action_by, action_name, ref_id, ref_id_type, error_json) VALUES ({{ appsmith.user.username }}, {{ this.params.action_type }}, {{ this.params.ref_id }}, {{ this.params.ref_id_type }}, {{ this.params.error_json }})

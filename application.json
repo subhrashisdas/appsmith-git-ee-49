@@ -1,0 +1,65 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#E3DEFF",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Summary",
+      "isDefault": false
+    },
+    {
+      "id": "Max Benefit Tracker",
+      "isDefault": false
+    },
+    {
+      "id": "Lookup",
+      "isDefault": true
+    },
+    {
+      "id": "PBM Claims Data",
+      "isDefault": false
+    },
+    {
+      "id": "Reports",
+      "isDefault": false
+    },
+    {
+      "id": "Add Provider",
+      "isDefault": false
+    },
+    {
+      "id": "Link Patients to Provider",
+      "isDefault": false
+    },
+    {
+      "id": "BPS",
+      "isDefault": false
+    },
+    {
+      "id": "Test",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

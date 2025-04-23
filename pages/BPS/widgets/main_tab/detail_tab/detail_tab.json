@@ -1,0 +1,337 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 264,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2010,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "9v4ws5cxc0",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 3940,
+      "minWidth": 450,
+      "mobileBottomRow": 3941,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "vn0ml2ooqj",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabqcwmqyug2e",
+      "tabName": "BPS",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "rm0dxh88do",
+      "widgetName": "Canvas39"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2010,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "n7dvfin1bp",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 470,
+      "minWidth": 450,
+      "mobileBottomRow": 471,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "vn0ml2ooqj",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabvbr97ju0px",
+      "tabName": "BPS Search",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "bbg0pufduc",
+      "widgetName": "Canvas40"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2010,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "ydimzktkzh",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 640,
+      "minWidth": 450,
+      "mobileBottomRow": 641,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "vn0ml2ooqj",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabt8n8r5673w",
+      "tabName": "BPS History",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ofvzwr94fa",
+      "widgetName": "Canvas44"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2010,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "9to9nrlhjl",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1260,
+      "minWidth": 450,
+      "mobileBottomRow": 1261,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "vn0ml2ooqj",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabqmh2hacatw",
+      "tabName": "BPS API History",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "z1lka316f2",
+      "widgetName": "Canvas46"
+    }
+  ],
+  "defaultTab": "BPS",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tabsObj.tabqcwmqyug2e.isVisible"
+    },
+    {
+      "key": "tabsObj.tabvbr97ju0px.isVisible"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tabf3lz84l8dj.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tabdrqiefgjwk.isVisible"
+    },
+    {
+      "key": "tabsObj.tabby0d9z6zei.isVisible"
+    },
+    {
+      "key": "tabsObj.tabwnj7h4zhyo.isVisible"
+    },
+    {
+      "key": "onTabSelected"
+    },
+    {
+      "key": "tabsObj.tabd1lulrqkcv.isVisible"
+    },
+    {
+      "key": "tabsObj.tab9zmh12gr0o.isVisible"
+    },
+    {
+      "key": "tabsObj.tabr3levo92cm.isVisible"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "tabsObj.tabnlqyal7vny.isVisible"
+    },
+    {
+      "key": "tabsObj.tab52klz1o177.isVisible"
+    },
+    {
+      "key": "tabsObj.tabo9a3e70we4.isVisible"
+    },
+    {
+      "key": "tabsObj.tabqcwmqyug2e.isVisible"
+    },
+    {
+      "key": "tabsObj.tabvbr97ju0px.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "h3a0elhy53",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "onTabSelected": "",
+  "originalBottomRow": 256,
+  "originalTopRow": 59,
+  "parentColumnSpace": 36.171875,
+  "parentId": "wu6jqlpprv",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldShowTabs": true,
+  "tabsObj": {
+    "tabqcwmqyug2e": {
+      "id": "tabqcwmqyug2e",
+      "index": 0,
+      "isDuplicateLabel": false,
+      "isVisible": "{{true || main_tab.selectedTab === \"Patients\"}}",
+      "label": "BPS",
+      "widgetId": "rm0dxh88do"
+    },
+    "tabqmh2hacatw": {
+      "id": "tabqmh2hacatw",
+      "index": 3,
+      "isVisible": false,
+      "label": "BPS API History",
+      "widgetId": "z1lka316f2"
+    },
+    "tabt8n8r5673w": {
+      "id": "tabt8n8r5673w",
+      "index": 2,
+      "isVisible": false,
+      "label": "BPS History",
+      "widgetId": "ofvzwr94fa"
+    },
+    "tabvbr97ju0px": {
+      "id": "tabvbr97ju0px",
+      "index": 1,
+      "isDuplicateLabel": false,
+      "isVisible": "{{false || main_tab.selectedTab === \"Providers\"}}",
+      "label": "BPS Search",
+      "widgetId": "bbg0pufduc"
+    }
+  },
+  "topRow": 59,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "vn0ml2ooqj",
+  "widgetName": "detail_tab"
+}

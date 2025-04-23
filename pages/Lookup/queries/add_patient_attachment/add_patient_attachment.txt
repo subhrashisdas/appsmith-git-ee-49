@@ -1,0 +1,10 @@
+INSERT INTO PatientAttachments
+  (user_name, patient_id, file_description, s3_bucket, s3_key)
+VALUES
+  (
+    {{ this.params.user_name }},
+    {{ this.params.patient_id }},
+		{{ this.params.file_description }},
+		{{ this.params.s3_bucket }},
+		{{ this.params.s3_key }}
+  );

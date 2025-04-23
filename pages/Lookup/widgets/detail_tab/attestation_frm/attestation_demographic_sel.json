@@ -1,0 +1,83 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 36,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  attestation_history_table?.selectedRow?.demographic_confirmed  || \"\"))(attestation_demographic_sel.options, attestation_demographic_sel.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "3b0p9vbnfj",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Confirmation of patient demographic verification including name, address, DOB\n",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 19,
+  "onDropdownClose": "{{ \n\nattestation_demographic_sel.selectedOptionValue === 'Y' ? \"do nothing\" : showAlert(\"Need from provider to complete eligibility.\")\n\n}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 36,
+  "originalTopRow": 27,
+  "parentColumnSpace": 9.03125,
+  "parentId": "vo9o2ymtsi",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "[\n  {\n    \"name\": \"Yes\",\n    \"code\": \"Y\"\n  },\n  {\n    \"name\": \"No\",\n    \"code\": \"N\"\n  },\n  {\n    \"name\": \"I Don't Know\",\n    \"code\": \"U\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 27,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "fk46xvba4k",
+  "widgetName": "attestation_demographic_sel"
+}

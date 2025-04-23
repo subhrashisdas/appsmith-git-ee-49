@@ -1,0 +1,14 @@
+SELECT
+    claim_id,
+    patient_id,
+    JSON_VALUE([xolair].dbo.Claims.claim_data, '$.ndc') AS ndc,
+    CAST(JSON_VALUE([xolair].dbo.Claims.claim_data, '$."drug quantity"') AS DECIMAL(10, 2)) AS quantity,
+    CAST(JSON_VALUE([xolair].dbo.Claims.claim_data, '$."days supplied"') AS DECIMAL(10, 2)) AS daysSupply,
+    COALESCE(JSON_VALUE(claim_data, '$.patient_responsibility_before_benefit_applied'), JSON_VALUE(claim_data, '$.out_of_pocket_amount')) AS initialOutOfPocket,
+    date_of_service AS dateOfService,
+    JSON_VALUE([xolair].dbo.Claims.claim_data, '$.providers.pharmacy.pharmacy_name') AS pharmacyName,
+    JSON_VALUE([xolair].dbo.Claims.claim_data, '$.pbm_bin') AS bin,
+    NULL AS calculatedWac
+  FROM [xolair].[dbo].[Claims]
+  WHERE patient_id = '{{this.params.patient_id}}' AND date_of_service LIKE '%2024%' AND payment_type = 'PBM' AND payment_status = 'Paid'
+  ORDER BY patient_id ASC, date_of_service DESC, claim_id DESC

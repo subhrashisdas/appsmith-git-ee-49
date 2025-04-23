@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultOptionValue": "100073A",
+  "displayName": "TreeSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "expandAll": false,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ndt6qqlk4n",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Change Member Group to:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onDropdownClose": "{{ member_group_select.selectedOptionLabel == 'Maximizer' ? bps_helper_obj.update_at_risk_indicators_update_member_group(\"Maximizer = Y and AAP = N\") :  \"do nothing\"}}",
+  "onOptionChange": "",
+  "options": "[\n  {\n    \"label\": \"Maximizer\",\n    \"value\": \"100073A\"\n  },\n  {\n    \"label\": \"Standard\",\n    \"value\": \"100073\"\n  }\n]",
+  "originalBottomRow": 14,
+  "originalTopRow": 7,
+  "parentColumnSpace": 6.9375,
+  "parentId": "usdoxl4p9c",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "searchTags": [
+    "dropdown"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 7,
+  "type": "SINGLE_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "u538ekpfjc",
+  "widgetName": "member_group_select"
+}

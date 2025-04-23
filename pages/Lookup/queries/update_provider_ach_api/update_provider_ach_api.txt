@@ -1,0 +1,11 @@
+{
+    "provider_id": {{ appsmith.store.provider_id }},
+    "ach_info": {
+			"account_name": {{ appsmith.store.account_name }},
+			"bank": {{ appsmith.store.bank }},
+      "bank_address": {{ appsmith.store.bank_address }},
+      "routing_number": {{ appsmith.store.routing_number }},
+      "account_number": {{ appsmith.store.account_number }},
+      "request_date": {{ appsmith.store.request_date }}
+    }
+}

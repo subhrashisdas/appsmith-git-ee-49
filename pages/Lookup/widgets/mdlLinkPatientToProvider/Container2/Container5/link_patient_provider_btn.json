@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "tsj968wwey",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "onClick": "{{\n\nawait storeValue(\"provider_type\", provider_type_input.selectedOptionValue)\n\nawait patient_helper_obj.link_patient_member_id_to_provider_npi(patient_lookup_table.selectedRow[\"Member ID\"], link_provider_tbl.selectedRow[\"Provider NPI\"], provider_type_input.selectedOptionValue)\n\n}}",
+  "originalBottomRow": 66,
+  "originalTopRow": 62,
+  "parentColumnSpace": 11.67431640625,
+  "parentId": "wsxpcvzcyf",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Link\n",
+  "topRow": 10,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "iuf3pk0r54",
+  "widgetName": "link_patient_provider_btn"
+}

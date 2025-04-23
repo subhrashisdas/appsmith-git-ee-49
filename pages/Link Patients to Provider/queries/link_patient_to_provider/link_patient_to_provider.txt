@@ -1,0 +1,7 @@
+{
+    
+    "member_id": {{ appsmith.store.member_id }},
+    "npi": {{ appsmith.store.npi }},
+    "provider_type": {{ appsmith.store.provider_type }}
+   
+}

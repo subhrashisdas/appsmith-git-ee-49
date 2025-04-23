@@ -1,0 +1,59 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 48,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "t2u85c8b1c",
+  "leftColumn": 37,
+  "minWidth": 120,
+  "onClick": "{{\n\npatient_helper_obj.add_insurance(patient_lookup_table.selectedRow[\"Database ID\"], add_ins_type_sel.selectedOptionValue, add_ins_plan_name_inp.inputText, add_ins_plan_type_sel.selectedOptionValue, add_ins_bin_inp.inputText, add_ins_pcn_inp.inputText, add_ins_group_inp.inputText, add_ins_plan_id_inp.inputText, add_ins_start_date_pkr.selectedDate, add_ins_end_date_pkr.selectedDate, add_ins_comm_or_gov_sel.selectedOptionValue)\n\n}}",
+  "originalBottomRow": 48,
+  "originalTopRow": 44,
+  "parentId": "zsvqbm1cyj",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 53,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Save",
+  "topRow": 44,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "k70a9sshic",
+  "widgetName": "add_ins_save_btn"
+}

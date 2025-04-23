@@ -1,0 +1,6 @@
+UPDATE dbo.PatientBPS 
+SET 
+	date_qc_approval = {{ moment(Date.now()).format('YYYY-MM-DD hh:mm:ss') }}, 
+	user_qc_approval = {{this.params.username}},
+	maximizer = {{this.params.maximizer}}
+	WHERE patient_id = {{ this.params.patient_id }} 

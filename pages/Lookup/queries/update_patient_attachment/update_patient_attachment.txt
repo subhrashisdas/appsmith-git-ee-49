@@ -1,0 +1,14 @@
+UPDATE PatientAttachments
+  SET user_name = {{ this.params.user_name }},
+			patient_id = {{ this.params.patient_id }},
+	    description = {{ this.params.file_description }},
+	 		s3_bucket = {{ this.params.s3_bucket }},
+			s3_key = {{ this.params.s3_key }},
+			created = {{ this.params.created }},
+  WHERE id = {{ this.params.attachment_id }};
+
+
+    
+	
+		
+		

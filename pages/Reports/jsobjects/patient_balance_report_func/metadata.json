@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6411711beef71c3e5ff8b2e7_649d07eca45b204e8233c816",
+  "id": "Reports_patient_balance_report_func",
+  "unpublishedCollection": {
+    "name": "patient_balance_report_func",
+    "pageId": "Reports",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

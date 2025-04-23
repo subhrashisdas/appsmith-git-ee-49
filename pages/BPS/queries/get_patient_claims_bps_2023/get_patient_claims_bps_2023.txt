@@ -1,0 +1,42 @@
+WITH PBM_claims_crx_all_ranked AS (
+  SELECT
+    *,
+    ROW_NUMBER() OVER (PARTITION BY original_transaction_id ORDER BY id DESC) AS row_num
+  FROM
+    [xolair].[dbo].[PBM_claims_crx_all]
+  WHERE confirmation_number = '{{this.params.patient_id}}'
+)
+
+SELECT
+claim_id,
+dbo.copay_patients.patient_id,
+member_id,
+ndc,
+quantity,
+daysSupply,
+initialOutOfPocket,
+dateOfService,
+pharmacyName,
+bin,
+calculatedWac
+FROM (
+  SELECT id, dbo.Claims.claim_id,
+  dbo.Claims.patient_id,
+  COALESCE(JSON_VALUE(dbo.Claims.claim_data, '$.ndc'), PBM_claims_crx_all_unique_by_last_claim_id.ndc) AS ndc,
+  CAST(COALESCE(JSON_VALUE(dbo.Claims.claim_data, '$."drug quantity"'), PBM_claims_crx_all_unique_by_last_claim_id.drug_quantity) AS DECIMAL(10, 2)) AS quantity,
+  CAST(COALESCE(JSON_VALUE(dbo.Claims.claim_data, '$."days supplied"'), PBM_claims_crx_all_unique_by_last_claim_id.days_supplied) AS DECIMAL(10, 2)) AS daysSupply,
+  COALESCE(JSON_VALUE(dbo.Claims.claim_data, '$.patient_responsibility_before_benefit_applied'), JSON_VALUE(dbo.Claims.claim_data, '$.out_of_pocket_amount')) AS initialOutOfPocket,
+  dbo.Claims.date_of_service AS dateOfService,
+  COALESCE(JSON_VALUE(dbo.Claims.claim_data, '$.providers.pharmacy.pharmacy_name'), PBM_claims_crx_all_unique_by_last_claim_id.pharmacy_name) AS pharmacyName,
+  JSON_VALUE(dbo.Claims.claim_data, '$.pbm_bin') AS bin,
+  NULL AS calculatedWac
+  FROM dbo.Claims
+  LEFT JOIN (
+    SELECT *
+    FROM PBM_claims_crx_all_ranked
+    WHERE row_num = 1 
+  ) PBM_claims_crx_all_unique_by_last_claim_id ON dbo.Claims.claim_id = PBM_claims_crx_all_unique_by_last_claim_id.original_transaction_id
+  WHERE dbo.Claims.date_of_service LIKE '%2023%' AND dbo.Claims.payment_type = 'PBM' AND dbo.Claims.payment_status = 'Paid' AND dbo.Claims.patient_id = '{{this.params.patient_id}}'
+) claim_table
+LEFT JOIN dbo.copay_patients ON dbo.copay_patients.patient_id = claim_table.patient_id
+ORDER BY dbo.copay_patients.patient_id ASC, dateOfService DESC, claim_id DESC

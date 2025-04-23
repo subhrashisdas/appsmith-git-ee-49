@@ -1,0 +1,1 @@
+SELECT * FROM dbo.PatientBPS WHERE (date_new_status >= {{ this.params.start_date }} AND date_new_status <= {{ this.params.end_date }} ) 

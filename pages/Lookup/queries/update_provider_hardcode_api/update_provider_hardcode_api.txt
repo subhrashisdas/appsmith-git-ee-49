@@ -1,0 +1,19 @@
+{
+    "provider_id": 7128,
+    "provider_npi": "1710943790",
+    "provider_type": "Billing",
+    "provider_data": "{\"first_name\":\"Eric\",\"last_name\":\"Kozlow\",\"practice_name\":\"Eric Kozlow\",\"phone_number\":\"3366295770\",\"user_agreement\":\"Y\",\"fax_opt_in\":\"Y\",\"address\":{\"address_1\":\"120 DAVIS ST\",\"address_2\":\"\",\"city\":\"ASHEBoRo\",\"state\":\"NC\",\"zip_code\":\"27203\"},\"fax_numbers\":{\"fax_number\":\"3366290130\",\"fax_number_2\":\"3366290130\"},\"opt_in_fax_numbers\":{\"fax1\":\"3366290130\",\"fax2\":\"NULL\",\"fax3\":\"NULL\"}}",
+    "credentials_id": "Tammy.Boncannon@conehealth.com",
+    "preferred_payment_method": "DEBIT",
+    "associated_providers": null,
+    "email": "Tammy.Voncannon@conehealth.com",
+    "ach_data": null,
+    "last_name_v": "Kozlow",
+    "practice_name_v": "Eric Kozlow",
+    "state_v": "NC",
+    "city_v": "ASHEBoRo",
+    "zip_code_v": "27203",
+    "first_name_v": null,
+    "createdAt": null,
+    "updatedAt": null
+  }

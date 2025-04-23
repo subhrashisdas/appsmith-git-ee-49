@@ -1,0 +1,143 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 84,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "bottomRow": 480,
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "4tmql7bvs1",
+      "leftColumn": 0,
+      "minHeight": 150,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "dcutnum792",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 408.984375,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "Claims w/ Provider",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "s9ykr6pdao",
+      "widgetName": "Canvas11"
+    },
+    {
+      "bottomRow": 480,
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "4tmql7bvs1",
+      "leftColumn": 0,
+      "minHeight": 150,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "dcutnum792",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 408.984375,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "All Patient Claims",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "89zgqnggzj",
+      "widgetName": "Canvas12"
+    }
+  ],
+  "defaultTab": "Claims w/ Provider",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{\nappsmith.store?.associated_patients ? appsmith.store.associated_patients.length > 0 : false\n}}",
+  "key": "442vtyagey",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 15,
+  "minWidth": 450,
+  "originalBottomRow": 84,
+  "originalTopRow": 32,
+  "parentColumnSpace": 27.265625,
+  "parentId": "k0tqme8341",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldShowTabs": true,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isVisible": false,
+      "label": "Claims w/ Provider",
+      "positioning": "vertical",
+      "widgetId": "s9ykr6pdao"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 1,
+      "isVisible": true,
+      "label": "All Patient Claims",
+      "positioning": "vertical",
+      "widgetId": "89zgqnggzj"
+    }
+  },
+  "topRow": 32,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "dcutnum792",
+  "widgetName": "provider_patient_claims_tab"
+}

@@ -1,0 +1,56 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultOptionValue": "HMO",
+  "displayName": "TreeSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "expandAll": false,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "psskxfzjui",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Plan Type",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "options": "[\n  {\n    \"label\": \"CDHP Consumer-directed Health Plan\",\n    \"value\": \"CDHP\"\n  },\n  {\n    \"label\": \"EPO Exclusive Provider Organization\",\n    \"value\": \"EPO\"\n  },\n  {\n    \"label\": \"FFS Fee For Service\",\n    \"value\": \"FFS\"\n  },\n\t{\n    \"label\": \"HDHP High-deductible Health Plan\",\n    \"value\": \"HDHP\"\n  },\n\t{\n    \"label\": \"HMO Health Maintenance Organization\",\n    \"value\": \"HMO\"\n  },\n\t{\n    \"label\": \"HRA Health Reimbursement Account\",\n    \"value\": \"HRA\"\n  },\n\t{\n    \"label\": \"HSA Health Savings Account\",\n    \"value\": \"HSA\"\n  },\n\t{\n    \"label\": \"Indemnity\",\n    \"value\": \"Indemnity\"\n  },\n\t{\n    \"label\": \"POS Point of Service\",\n    \"value\": \"POS\"\n  },\t\n\t{\n    \"label\": \"PPO Preferred Provider Organization\",\n    \"value\": \"PPO\"\n  },\n\t{\n    \"label\": \"Union\",\n    \"value\": \"Union\"\n  },\n\t{\n    \"label\": \"Other\",\n    \"value\": \"Other\"\n  }\n]",
+  "originalBottomRow": 46,
+  "originalTopRow": 39,
+  "parentColumnSpace": 3.825826942920685,
+  "parentId": "agv2vgfkf2",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "dropdown"
+  ],
+  "topRow": 8,
+  "type": "SINGLE_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "nc6ii6vm9d",
+  "widgetName": "add_ins_plan_type_sel"
+}

@@ -1,0 +1,331 @@
+{
+  "accentColor": "{{ api_url_sel.selectedOptionValue == \"DEVELOPMENT\" ? settings_helper_obj.dev_primary_color : settings_helper_obj.prod_primary_color }}",
+  "animateLoading": true,
+  "backgroundColor": "{{ api_url_sel.selectedOptionValue == \"DEVELOPMENT\" ? settings_helper_obj.dev_background_color : settings_helper_obj.prod_background_color \n}}",
+  "borderColor": "#e0dede",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 72,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "bottomRow": 630,
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kb8iiju8un",
+      "leftColumn": 0,
+      "minHeight": 150,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "avqeievd8x",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 475.5,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "Patients",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "9cszlhm7z4",
+      "widgetName": "Canvas110"
+    },
+    {
+      "bottomRow": 630,
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kb8iiju8un",
+      "leftColumn": 0,
+      "minHeight": 150,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "avqeievd8x",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 475.5,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "Providers",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "5ihwbphdk4",
+      "widgetName": "Canvas210"
+    },
+    {
+      "bottomRow": 630,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kb8iiju8un",
+      "leftColumn": 0,
+      "minHeight": 600,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "avqeievd8x",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1228.375,
+      "tabId": "tab23brqj56cy",
+      "tabName": "Enrollments",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "wdanhbbjsm",
+      "widgetName": "Canvas310"
+    },
+    {
+      "bottomRow": 740,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "ltt6kj19qz",
+      "leftColumn": 0,
+      "minHeight": 450,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "avqeievd8x",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1268,
+      "tabId": "tabea4iladzsm",
+      "tabName": "Communications",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "b9tvx6ptfq",
+      "widgetName": "Canvas17"
+    },
+    {
+      "bottomRow": 630,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "yyza101xut",
+      "leftColumn": 0,
+      "minHeight": 800,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "avqeievd8x",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1268,
+      "tabId": "tabbuwjng06k6",
+      "tabName": "Settings",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "xs4p73dozr",
+      "widgetName": "Canvas28"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 850,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "29og3h6kf6",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 460,
+      "minWidth": 450,
+      "mobileBottomRow": 461,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1268,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "avqeievd8x",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1268,
+      "tabId": "tabwbgwxggipm",
+      "tabName": "Update Balances",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "eiqrerq4j2",
+      "widgetName": "Canvas311"
+    }
+  ],
+  "defaultTab": "",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "tabsObj.tabwbgwxggipm.isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTabSelected"
+    },
+    {
+      "key": "tabsObj.tabbuwjng06k6.isVisible"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "tabsObj.tabwbgwxggipm.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "kcpazku4zg",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "onTabSelected": "",
+  "originalBottomRow": 50,
+  "originalTopRow": 5,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldShowTabs": true,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isVisible": true,
+      "label": "Patients",
+      "positioning": "vertical",
+      "widgetId": "9cszlhm7z4"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 1,
+      "isVisible": true,
+      "label": "Providers",
+      "positioning": "vertical",
+      "widgetId": "5ihwbphdk4"
+    },
+    "tab23brqj56cy": {
+      "id": "tab23brqj56cy",
+      "index": 2,
+      "isVisible": false,
+      "label": "Enrollments",
+      "widgetId": "wdanhbbjsm"
+    },
+    "tabbuwjng06k6": {
+      "id": "tabbuwjng06k6",
+      "index": 4,
+      "isVisible": "false",
+      "label": "Settings",
+      "widgetId": "xs4p73dozr"
+    },
+    "tabea4iladzsm": {
+      "id": "tabea4iladzsm",
+      "index": 3,
+      "isVisible": true,
+      "label": "Communications",
+      "widgetId": "b9tvx6ptfq"
+    },
+    "tabwbgwxggipm": {
+      "id": "tabwbgwxggipm",
+      "index": 5,
+      "isVisible": "{{ appsmith.user.username == 'hao.phan@risrx.com' || appsmith.user.username == 'daniel.cabrera@risrx.com'}}",
+      "label": "Update Balances",
+      "widgetId": "eiqrerq4j2"
+    }
+  },
+  "topRow": 5,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "avqeievd8x",
+  "widgetName": "lookup_tab"
+}

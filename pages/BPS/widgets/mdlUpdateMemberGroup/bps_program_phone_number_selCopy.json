@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 41,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{member_group_select.selectedOptionLabel=='Maximizer'}}",
+  "key": "dykp7cl04u",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Maximizer Program Name and Phone Number",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 2,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 41,
+  "originalTopRow": 33,
+  "parentColumnSpace": 1.298828125,
+  "parentId": "usdoxl4p9c",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "[\n{\n\"name\": \"AMWINS VARIABLE COPAY PROGRAM - 8776461716\",\n\"code\": \"AMWINS VARIABLE COPAY PROGRAM - 8776461716\"\n},\n{\n\"name\": \"ARCHIMEDES - 8885045563\",\n\"code\": \"ARCHIMEDES - 8885045563\"\n},\n{\n\"name\": \"BENEFIT PLAN PROTECTION PROGRAM - 8554274682\",\n\"code\": \"BENEFIT PLAN PROTECTION PROGRAM - 8554274682\"\n},\n{\n\"name\": \"COPAY ARMOR - 8443774246\",\n\"code\": \"COPAY ARMOR - 8443774246\"\n},\n{\n\"name\": \"COPAY MAX - 8558473556\",\n\"code\": \"COPAY MAX - 8558473556\"\n},\n{\n\"name\": \"COST RELIEF PROGRAM - 8334190530\",\n\"code\": \"COST RELIEF PROGRAM - 8334190530\"\n},\n{\n\"name\": \"COUPON COPAY MAXIMIZATION PROGRAM - 8447652897\",\n\"code\": \"COUPON COPAY MAXIMIZATION PROGRAM - 8447652897\"\n},\n{\n\"name\": \"CVS SPECIALTY COPAY CARD PROGRAM - 8002372767\",\n\"code\": \"CVS SPECIALTY COPAY CARD PROGRAM - 8002372767\"\n},\n{\n\"name\": \"DIVERSIFIED RX ADVOCATES - 8445598332\",\n\"code\": \"DIVERSIFIED RX ADVOCATES - 8445598332\"\n},\n{\n\"name\": \"EPIPHANY - 8775717500\",\n\"code\": \"EPIPHANY - 8775717500\"\n},\n{\n\"name\": \"FLEXACCESS - 8883023618\",\n\"code\": \"FLEXACCESS - 8883023618\"\n},\n{\n\"name\": \"HIGH IMPACT ADVOCACY PROGRAM - 4027532800\",\n\"code\": \"HIGH IMPACT ADVOCACY PROGRAM - 4027532800\"\n},\n{\n\"name\": \"IMPAXRX - 8444672979\",\n\"code\": \"IMPAXRX - 8444672979\"\n},\n{\n\"name\": \"INTERCEPT PROGRAM - 8778158395\",\n\"code\": \"INTERCEPT PROGRAM - 8778158395\"\n},\n{\n\"name\": \"IPC EVERGREEN ASSISTANCE PROGRAM - 6366143126\",\n\"code\": \"IPC EVERGREEN ASSISTANCE PROGRAM - 6366143126\"\n},\n{\n\"name\": \"MAXOR COPAY SOLUTIONS - 8006870707\",\n\"code\": \"MAXOR COPAY SOLUTIONS - 8006870707\"\n},\n{\n\"name\": \"MEDIMPACT ASSIST - 8007882949\",\n\"code\": \"MEDIMPACT ASSIST - 8007882949\"\n},\n{\n\"name\": \"MEDONE COPAY ASSIST PROGRAM - 8888846331\",\n\"code\": \"MEDONE COPAY ASSIST PROGRAM - 8888846331\"\n},\n{\n\"name\": \"PAYD HEALTH - 8778697772\",\n\"code\": \"PAYD HEALTH - 8778697772\"\n},\n{\n\"name\": \"PAYER MATRIX - 8773056202\",\n\"code\": \"PAYER MATRIX - 8773056202\"\n},\n{\n\"name\": \"PILLARRX - 8443774246\",\n\"code\": \"PILLARRX - 8443774246\"\n},\n{\n\"name\": \"PRESCRIPTION OPTIMIZATION PROGRAM - 8889025533\",\n\"code\": \"PRESCRIPTION OPTIMIZATION PROGRAM - 8889025533\"\n},\n{\n\"name\": \"PRUDENTRX - 8005784403\",\n\"code\": \"PRUDENTRX - 8005784403\"\n},\n{\n\"name\": \"RX ASSIST POWERED BY MEDALISTRX - 8556332579\",\n\"code\": \"RX ASSIST POWERED BY MEDALISTRX - 8556332579\"\n},\n{\n\"name\": \"RXFREE4ME - 8447943733\",\n\"code\": \"RXFREE4ME - 8447943733\"\n},\n{\n\"name\": \"SAVEONSP - 8339553404\",\n\"code\": \"SAVEONSP - 8339553404\"\n},\n{\n\"name\": \"SCRIPT SOURCING - 4109028811\",\n\"code\": \"SCRIPT SOURCING - 4109028811\"\n},\n{\n\"name\": \"SHARX - 3144513555\",\n\"code\": \"SHARX - 3144513555\"\n},\n{\n\"name\": \"SMART RXASSIST - 8006816912\",\n\"code\": \"SMART RXASSIST - 8006816912\"\n},\n{\n\"name\": \"SPECIALTY COPAY SOLUTIONS PROGRAM - 8003689045\",\n\"code\": \"SPECIALTY COPAY SOLUTIONS PROGRAM - 8003689045\"\n},\n{\n\"name\": \"VALUE MAX - 8665542673\",\n\"code\": \"VALUE MAX - 8665542673\"\n},\n{\n\"name\": \"VARIABLE COPAY PROGRAM - 8003563477\",\n\"code\": \"VARIABLE COPAY PROGRAM - 8003563477\"\n},\n{\n\"name\": \"VARIABLE SPECIALTY COPAY PROGRAM - 8887518126\",\n\"code\": \"VARIABLE SPECIALTY COPAY PROGRAM - 8887518126\"\n},\n{\n\"name\": \"VERACITY RX - 7704201500\",\n\"code\": \"VERACITY RX - 7704201500\"\n},\n{\n\"name\": \"VIVIO - 8004704034\",\n\"code\": \"VIVIO - 8004704034\"\n},\n{\n\"name\": \"WELLASSIST - 8778158395\",\n\"code\": \"WELLASSIST - 8778158395\"\n},\n{\n\"name\": \"SCAP PROGRAM - 8009939898\",\n\"code\": \"SCAP PROGRAM - 8009939898\"\n},\n{\n\"name\": \"THE VARIABLE COPAY PROGRAM - 8334399617\",\n\"code\": \"THE VARIABLE COPAY PROGRAM - 8334399617\"\n},\n{\n\"name\": \"REALRX ASSIST - 8558694769\",\n\"code\": \"REALRX ASSIST - 8558694769\"\n},\n{\n\"name\": \"RX CAP - 8888322779\",\n\"code\": \"RX CAP - 8888322779\"\n},\n{\n\"name\": \"HMAA MANUF COPAYMENT ASSISTANCE PROGRAM - 8089414622\",\n\"code\": \"HMAA MANUF COPAYMENT ASSISTANCE PROGRAM - 8089414622\"\n},\n{\n\"name\": \"COST-SHARE ASSISTANCE - CALL PBM\",\n\"code\": \"COST-SHARE ASSISTANCE - CALL PBM\"\n},\n{\n\"name\": \"HEALTHTRUST - CALL PBM\",\n\"code\": \"HEALTHTRUST - CALL PBM\"\n},\n{\n\"name\": \"CVS COPAY OPTIMIZATION PROGRAM - 8005528159\",\n\"code\": \"CVS COPAY OPTIMIZATION PROGRAM - 8005528159\"\n},\n{\n\"name\": \"VENTEGRA BENEFIT PRESERVATION PROGRAM - 8773930009\",\n\"code\": \"VENTEGRA BENEFIT PRESERVATION PROGRAM - 8773930009\"\n},\n{\n\"name\": \"CAAP RX - 8007593203\",\n\"code\": \"CAAP RX - 8007593203\"\n},\n{\n\"name\": \"RX HELP CENTERS - 8664789593\",\n\"code\": \"RX HELP CENTERS - 8664789593\"\n},\n{\n\"name\": \"NFP RX SOLUTIONS - 8882019175\",\n\"code\": \"NFP RX SOLUTIONS - 8882019175\"\n},\n{\n\"name\": \"SMITHRX CONNECT - 8444545201\",\n\"code\": \"SMITHRX CONNECT - 8444545201\"\n},\n{\n\"name\": \"EHIM CARES PROGRAM - 8003113446\",\n\"code\": \"EHIM CARES PROGRAM - 8003113446\"\n},\n{\n\"name\": \"NOBLE SIGNATURE CARE - 8664204041\",\n\"code\": \"NOBLE SIGNATURE CARE - 8664204041\"\n},\n{\n\"name\": \"ELIXIR VARIABLE COPAYMENT - 8774379012\",\n\"code\": \"ELIXIR VARIABLE COPAYMENT - 8774379012\"\n},\n{\n\"name\": \"BENECARD PBF ALTERNATIVE FUNDING - 8889070090\",\n\"code\": \"BENECARD PBF ALTERNATIVE FUNDING - 8889070090\"\n},\n{\n\"name\": \"ACCESS GUIDANCE - 8558473556\",\n\"code\": \"ACCESS GUIDANCE - 8558473556\"\n},\n{\n\"name\": \"BIC ALIGN PROGRAM - 8003614542\",\n\"code\": \"BIC ALIGN PROGRAM - 8003614542\"\n},\n{\n\"name\": \"EMPIRX VARIABLE COPAY - 8889072820\",\n\"code\": \"EMPIRX VARIABLE COPAY - 8889072820\"\n},\n{\n\"name\": \"BE WELL COPAY SUPPORT - 8889072820\",\n\"code\": \"BE WELL COPAY SUPPORT - 8889072820\"\n},\n{\n\"name\": \"UNDEFINED - 0\",\n\"code\": \"UNDEFINED - 0\"\n}\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 33,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "c0e1stukbd",
+  "widgetName": "bps_program_phone_number_selCopy"
+}

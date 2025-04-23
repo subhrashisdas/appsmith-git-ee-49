@@ -1,0 +1,1 @@
+ UPDATE dbo.BPSHistory SET program_name_and_phone_number='SAVEONSP - 8006831074' WHERE program_name_and_phone_number='SAVEONSP - 8339553404' -- Specify a valid condition here. Removing the condition may update every row in the table!

@@ -1,0 +1,17 @@
+SELECT DISTINCT dbo.Claims.claim_id,
+    dbo.Claims.patient_id,
+    dbo.Claims.claim_status,
+    dbo.Claims.payment_status,
+    JSON_VALUE(dbo.Claims.claim_data, '$.ndc') AS ndc,
+    JSON_VALUE(dbo.Claims.claim_data, '$.program_benefit') AS patient_benefit,
+    JSON_VALUE(dbo.Claims.claim_data, '$.patient_oop') AS patient_oop,
+    JSON_VALUE(dbo.Claims.claim_data, '$.patient_responsibility_before_benefit_applied') AS patient_responsibility_before_benefit_applied,
+    dbo.Claims.date_of_service,
+    CAST(dbo.PBM_claims_crx_tsv.days_supplied AS DECIMAL(10, 2)) AS days_supplied,
+    CAST(dbo.PBM_claims_crx_tsv.drug_quantity AS DECIMAL(10, 2)) AS drug_quantity,
+    dbo.PBM_claims_crx_tsv.pharmacy_name,
+    CAST(dbo.PBM_claims_crx_tsv.wac AS DECIMAL(10, 2)) AS wac
+  FROM dbo.Claims
+  LEFT JOIN dbo.PBM_claims_crx_tsv ON dbo.Claims.claim_id = dbo.PBM_claims_crx_tsv.original_transaction_id
+  WHERE dbo.Claims.patient_id = '{{appsmith.store.patient_id}}' AND dbo.Claims.date_of_service LIKE '%2023%' AND dbo.Claims.payment_type = 'PBM'
+  ORDER BY dbo.Claims.patient_id ASC, dbo.Claims.date_of_service DESC, dbo.Claims.claim_id DESC

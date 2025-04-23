@@ -1,0 +1,1 @@
+SELECT * FROM dbo.copay_patients WHERE (current_enrollment_date_drug >= {{ this.params.start_date }} AND current_enrollment_date_drug <= {{ this.params.end_date }}) OR  (current_enrollment_date_drug_admin >= {{ this.params.start_date }} AND current_enrollment_date_drug_admin <= {{ this.params.end_date }}) 

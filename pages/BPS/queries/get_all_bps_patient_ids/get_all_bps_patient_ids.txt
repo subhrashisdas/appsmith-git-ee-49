@@ -1,0 +1,1 @@
+SELECT patient_id FROM dbo.PatientBPS

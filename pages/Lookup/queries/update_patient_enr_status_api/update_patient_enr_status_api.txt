@@ -1,0 +1,6 @@
+{    
+    "patient_id": {{ this.params.patient_id }},
+ 		"member_id": {{ this.params.member_id }},
+		"enrollment_status": {{ this.params.enrollment_status }}
+
+}

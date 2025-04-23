@@ -1,0 +1,196 @@
+{
+  "gitSyncId": "650c751d64426f4505e1802b_655436cfd9fb7550015eec08",
+  "id": "BPS_constants",
+  "unpublishedCollection": {
+    "name": "constants",
+    "pageId": "BPS",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "log_template",
+        "value": "'await log({action_type: \"\", ref_id: \"\", ref_id_type: \"\", change_json: JSON.stringify({}) })'"
+      },
+      {
+        "name": "update",
+        "value": "\"Update\""
+      },
+      {
+        "name": "add",
+        "value": "\"Add\""
+      },
+      {
+        "name": "auto_segmentation_omni_check_api",
+        "value": "\"Auto Segmentation Omni-Check API\""
+      },
+      {
+        "name": "auto_segmentation_claims_api",
+        "value": "\"Auto Segmentation Claims API\""
+      },
+      {
+        "name": "add_bps_maximizer_patient",
+        "value": "\"Add BPS Maximizer Patient\""
+      },
+      {
+        "name": "update_bps_segmentation_status",
+        "value": "\"Update BPS Segmentation Status\""
+      },
+      {
+        "name": "update_at_risk_mp_aap",
+        "value": "\"Update At Risk MP AAP\""
+      },
+      {
+        "name": "link_patient_to_provider",
+        "value": "\"Link Patient to Provider\""
+      },
+      {
+        "name": "provider_pw_reset",
+        "value": "\"Reset Provider Password\""
+      },
+      {
+        "name": "patient_pw_reset",
+        "value": "\"Reset Patient Password\""
+      },
+      {
+        "name": "patient_card_registration",
+        "value": "\"Patient Paysign Card Registration\""
+      },
+      {
+        "name": "update_provider_preferred_payment_method",
+        "value": "\"Update Provider Payment Method\""
+      },
+      {
+        "name": "update_patient_enrollment_status",
+        "value": "\"Update Patient Enrollment Status\""
+      },
+      {
+        "name": "update_paysign_card_status_active",
+        "value": "\"Update Card Status to Active at Paysign\""
+      },
+      {
+        "name": "update_paysign_card_status_inactive",
+        "value": "\"Update Card Status to Inactive at Paysign\""
+      },
+      {
+        "name": "add_provider",
+        "value": "\"Add Provider\""
+      },
+      {
+        "name": "update_provider",
+        "value": "\"Update Provider\""
+      },
+      {
+        "name": "add_provider_user",
+        "value": "\"Add Provider User Credentials\""
+      },
+      {
+        "name": "update_provider_user",
+        "value": "\"Update Provider User Credentials\""
+      },
+      {
+        "name": "update_provider_ach",
+        "value": "\"Update Provider ACH\""
+      },
+      {
+        "name": "add_patient",
+        "value": "\"Add Patient\""
+      },
+      {
+        "name": "update_patient",
+        "value": "\"Update Patient\""
+      },
+      {
+        "name": "add_patient_user",
+        "value": "\"Add Patient User Credentials\""
+      },
+      {
+        "name": "update_patient_user",
+        "value": "\"Update Patient User Credentials\""
+      },
+      {
+        "name": "update_patient_member_group",
+        "value": "\"Update Patient Member Group\""
+      },
+      {
+        "name": "update_bps_at_risk_for_mp_aap",
+        "value": "\"Update BPS At Risk For MP AAP\""
+      },
+      {
+        "name": "add_attestation",
+        "value": "\"Add Provider Attestation\""
+      },
+      {
+        "name": "update_attestation",
+        "value": "\"Update Provider Attestation\""
+      },
+      {
+        "name": "add_notes",
+        "value": "\"Add Patient Notes\""
+      },
+      {
+        "name": "update_notes",
+        "value": "\"Update Patient Notes\""
+      },
+      {
+        "name": "omnicheck",
+        "value": "\"Run Omni Check\""
+      },
+      {
+        "name": "bps_omni_check_api",
+        "value": "\"BPS OMNI-CHECK API\""
+      },
+      {
+        "name": "bps_claims_api",
+        "value": "\"BPS CLAIMS API\""
+      },
+      {
+        "name": "add_insurance",
+        "value": "\"Add Insurance\""
+      },
+      {
+        "name": "update_insurance",
+        "value": "\"Update Insurance\""
+      },
+      {
+        "name": "npi",
+        "value": "\"Provider NPI\""
+      },
+      {
+        "name": "provider_id",
+        "value": "\"Provider ID\""
+      },
+      {
+        "name": "patient_id",
+        "value": "\"Patient ID\""
+      },
+      {
+        "name": "member_id",
+        "value": "\"Patient Member ID\""
+      },
+      {
+        "name": "database_id",
+        "value": "\"Database ID\""
+      },
+      {
+        "name": "at_risk_for_mp_aap_mapping",
+        "value": "{\n  \"Y|N\": 'Maximizer = Y and AAP = N',\n  \"N|Y\": 'Maximizer = N and AAP = Y',\n  \"N|N\": 'Maximizer = N and AAP = N',\n  \"N|U\": 'Maximizer = N and AAP = U',\n  \"U|U\": 'Maximizer = U and AAP = U',\n  \"NA|NA\": 'Maximizer = NA and AAP = NA'\n}"
+      },
+      {
+        "name": "indicator_1_mapping",
+        "value": "{\n  \"M1\": \"PreVail Keyword Match (MP)\",\n  \"M2\": \"PreVail BPG Match (MP)\",\n  \"M3\": \"Confirmed by Rep (MP)\",\n  \"M4\": \"Confirmed by plan level information (MP)\",\n  \"M100\": \"Payer Portal Message (MP)\",\n  \"M101\": \"Repeating 30% or 50% coinsurance (MP)\",\n  \"M102\": \"Repeating copay / 12 or 13 (MP)\",\n  \"A2\": \"Confirmed by plan level information (AAP)\",\n  \"A100\": \"Confirmed by Rep (AAP)\",\n  \"A101\": \"Patient Responsibility is always the remaining accumulators (AAP)\",\n  \"A102\": \"Patient Responsibility is full cost or full accumulators (AAP)\",\n  \"A103\": \"Only $5 patient responsibility is applying to accumulators (AAP)\",\n  \"A104\": \"Payer Portal Message (AAP)\",\n  \"A105\": \"Confirmed by adjustments to accumulators (AAP)\",\n  \"A107\": \"High Remaining accumulators (AAP)\",\n  \"B1\": \"E1 Not Found (BOTH)\",\n  \"B2\": \"Confirmed by Rep (BOTH)\",\n  \"B3\": \"Patient Responsibility < $900 (BOTH)\",\n  \"B4\": \"Accumulators are going down or met (BOTH)\",\n  \"B5\": \"Need more claims (BOTH)\",\n  \"B6\": \"Test Claim Not Available or PA Required (BOTH)\",\n  \"B7\": \"Grace Fill (BOTH)\",\n  \"B8\": \"Out of Network Penalty (BOTH)\",\n  \"B9\": \"Plan Exclusion - Discounted Rate Applied (BOTH)\",\n  \"B10\": \"Discount Card was used (BOTH)\",\n  \"B11\": \"Indemnity Plan or reimbursed through Major Medical (BOTH)\",\n  \"OTHER\": \"OTHER (Please fill out At Risk Indicator 3)\",\n  \"B12\": \"Commercial = N (BOTH)\",\n  \"B13\": \"No Risk BIN (BOTH)\",\n  \"M5\": \"Confirmed by historical claims (MP)\",\n  \"A3\": \"Confirmed by historical claims (AAP)\",\n  \"B14\": \"Confirmed by historical claims (BOTH)\",\n  \"B15\": \"High copay due to Benefit Cap (BOTH)\",\n  \"A108\": \"Copayment will not apply towards accumulators (AAP)\",\n  \"B16\": \"Confirmed by plan level information (BOTH)\",\n  \"B18\": \"Patient no longer on therapy (BOTH)\",\n  \"A4\": \"PreVail BPG Match (AAP)\"\n}"
+      },
+      {
+        "name": "indicator_2_mapping",
+        "value": "{\n  \"M100\": \"Payer Portal Message (MP)\",\n  \"M101\": \"Repeating 30% or 50% coinsurance (MP)\",\n  \"M102\": \"Repeating copay / 12 or 13 (MP)\",\n  \"A100\": \"Confirmed by Rep (AAP)\",\n  \"A101\": \"Patient Responsibility is always the remaining accumulators (AAP)\",\n  \"A102\": \"Patient Responsibility is full cost or full accumulators (AAP)\",\n  \"A103\": \"Only $5 patient responsibility is applying to accumulators (AAP)\",\n  \"A104\": \"Payer Portal Message (AAP)\",\n  \"A107\": \"High Remaining accumulators (AAP)\",\n  \"A108\": \"Copayment will not apply towards accumulators (AAP)\",\n  \"M1\": \"PreVail Keyword Match (MP)\",\n  \"M2\": \"PreVail BPG Match (MP)\",\n  \"M3\": \"Confirmed by Rep (MP)\",\n  \"M4\": \"Confirmed by plan level information (MP)\",\n  \"M5\": \"Confirmed by historical claims (MP)\",\n  \"A1\": \"Confirmed by adjustments to accumulators (AAP)\",\n  \"A2\": \"Confirmed by plan level information (AAP)\",\n  \"A3\": \"\tConfirmed by historical claims (AAP)\",\n  \"B1\": \"E1 Not Found (BOTH)\",\n  \"B2\": \"Confirmed by Rep (BOTH)\",\n  \"B3\": \"Patient Responsibility < $900 (BOTH)\",\n  \"B4\": \"Accumulators are going down or met (BOTH)\",\n  \"B5\": \"Need more claims (BOTH)\",\n  \"B6\": \"Test Claim Not Available or PA Required (BOTH)\",\n  \"B7\": \"Grace Fill (BOTH)\",\n  \"B8\": \"Out of Network Penalty (BOTH)\",\n  \"B9\": \"Plan Exclusion - Discounted Rate Applied (BOTH)\",\n  \"B10\": \"Discount Card was used (BOTH)\",\n  \"B11\": \"Indemnity Plan or reimbursed through Major Medical (BOTH)\",\n  \"B12\": \"Commercial = N (BOTH)\",\n  \"B13\": \"No Risk BIN (BOTH)\",\n  \"B14\": \"Confirmed by historical claims (BOTH)\",\n  \"B15\": \"High copay due to Benefit Cap (BOTH)\",\n  \"B16\": \"Confirmed by plan level information (BOTH)\",\n  \"OTHER\": \"OTHER (Please fill out At Risk Indicator 3)\",\n  \"B18\": \"Patient no longer on therapy (BOTH)\"\n}"
+      },
+      {
+        "name": "program_name_and_phone_number_mapping",
+        "value": "{\n  \"AMWINS VARIABLE COPAY PROGRAM\": \"AMWINS VARIABLE COPAY PROGRAM - 8776461716\",\n  \"ARCHIMEDES\": \"ARCHIMEDES - 8885045563\",\n  \"BENEFIT PLAN PROTECTION PROGRAM\": \"BENEFIT PLAN PROTECTION PROGRAM - 8554274682\",\n  \"COPAY ARMOR\": \"COPAY ARMOR - 8443774246\",\n  \"COPAY MAX\": \"COPAY MAX - 8558473556\",\n  \"COST RELIEF PROGRAM\": \"COST RELIEF PROGRAM - 8334190530\",\n  \"COUPON COPAY MAXIMIZATION PROGRAM\": \"COUPON COPAY MAXIMIZATION PROGRAM - 8447652897\",\n  \"CVS SPECIALTY COPAY CARD PROGRAM\": \"CVS SPECIALTY COPAY CARD PROGRAM - 8002372767\",\n  \"DIVERSIFIED RX ADVOCATES\": \"DIVERSIFIED RX ADVOCATES - 8445598332\",\n  \"EPIPHANY\": \"EPIPHANY - 8775717500\",\n  \"FLEXACCESS\": \"FLEXACCESS - 8883023618\",\n  \"HIGH IMPACT ADVOCACY PROGRAM\": \"HIGH IMPACT ADVOCACY PROGRAM - 4027532800\",\n  \"IMPAXRX\": \"IMPAXRX - 8444672979\",\n  \"INTERCEPT PROGRAM\": \"INTERCEPT PROGRAM - 8778158395\",\n  \"IPC EVERGREEN ASSISTANCE PROGRAM\": \"IPC EVERGREEN ASSISTANCE PROGRAM - 6366143126\",\n  \"MAXOR COPAY SOLUTIONS\": \"MAXOR COPAY SOLUTIONS - 8006870707\",\n  \"MEDIMPACT ASSIST\": \"MEDIMPACT ASSIST - 8007882949\",\n  \"MEDONE COPAY ASSIST PROGRAM\": \"MEDONE COPAY ASSIST PROGRAM - 8888846331\",\n  \"PAYD HEALTH\": \"PAYD HEALTH - 8778697772\",\n  \"PAYER MATRIX\": \"PAYER MATRIX - 8773056202\",\n  \"PILLARRX\": \"PILLARRX - 8443774246\",\n  \"PRESCRIPTION OPTIMIZATION PROGRAM\": \"PRESCRIPTION OPTIMIZATION PROGRAM - 8889025533\",\n  \"PRUDENTRX\": \"PRUDENTRX - 8005784403\",\n  \"RX ASSIST POWERED BY MEDALISTRX\": \"RX ASSIST POWERED BY MEDALISTRX - 8556332579\",\n  \"RXFREE4ME\": \"RXFREE4ME - 8447943733\",\n  \"SAVEONSP\": \"SAVEONSP - 8339553404\",\n  \"SCRIPT SOURCING\": \"SCRIPT SOURCING - 4109028811\",\n  \"SHARX\": \"SHARX - 3144513555\",\n  \"SMART RXASSIST\": \"SMART RXASSIST - 8006816912\",\n  \"SPECIALTY COPAY SOLUTIONS PROGRAM\": \"SPECIALTY COPAY SOLUTIONS PROGRAM - 8003689045\",\n  \"VALUE MAX\": \"VALUE MAX - 8665542673\",\n  \"VARIABLE COPAY PROGRAM\": \"VARIABLE COPAY PROGRAM - 8003563477\",\n  \"VARIABLE SPECIALTY COPAY PROGRAM\": \"VARIABLE SPECIALTY COPAY PROGRAM - 8887518126\",\n  \"VERACITY RX\": \"VERACITY RX - 7704201500\",\n  \"VIVIO\": \"VIVIO - 8004704034\",\n  \"WELLASSIST\": \"WELLASSIST - 8778158395\",\n  \"SCAP PROGRAM\": \"SCAP PROGRAM - 8009939898\",\n  \"THE VARIABLE COPAY PROGRAM\": \"THE VARIABLE COPAY PROGRAM - 8334399617\",\n  \"REALRX ASSIST\": \"REALRX ASSIST - 8558694769\",\n  \"RX CAP\": \"RX CAP - 8888322779\",\n  \"HMAA MANUF COPAYMENT ASSISTANCE PROGRAM\": \"HMAA MANUF COPAYMENT ASSISTANCE PROGRAM - 8089414622\",\n  \"COST-SHARE ASSISTANCE\": \"COST-SHARE ASSISTANCE - CALL PBM\",\n  \"HEALTHTRUST\": \"HEALTHTRUST - CALL PBM\",\n  \"CVS COPAY OPTIMIZATION PROGRAM\": \"CVS COPAY OPTIMIZATION PROGRAM - 8005528159\",\n  \"VENTEGRA BENEFIT PRESERVATION PROGRAM\": \"VENTEGRA BENEFIT PRESERVATION PROGRAM - 8773930009\",\n  \"CAAP RX\": \"CAAP RX - 8007593203\",\n  \"RX HELP CENTERS\": \"RX HELP CENTERS - 8664789593\",\n  \"NFP RX SOLUTIONS\": \"NFP RX SOLUTIONS - 8882019175\",\n  \"SMITHRX CONNECT\": \"SMITHRX CONNECT - 8444545201\",\n  \"EHIM CARES PROGRAM\": \"EHIM CARES PROGRAM - 8003113446\",\n  \"NOBLE SIGNATURE CARE\": \"NOBLE SIGNATURE CARE - 8664204041\",\n  \"ELIXIR VARIABLE COPAYMENT\": \"ELIXIR VARIABLE COPAYMENT - 8774379012\",\n  \"BENECARD PBF ALTERNATIVE FUNDING\": \"BENECARD PBF ALTERNATIVE FUNDING - 8889070090\",\n  \"ACCESS GUIDANCE\": \"ACCESS GUIDANCE - 8558473556\",\n  \"BIC ALIGN PROGRAM\": \"BIC ALIGN PROGRAM - 8003614542\",\n  \"EMPIRX VARIABLE COPAY\": \"EMPIRX VARIABLE COPAY - 8889072820\",\n  \"BE WELL COPAY SUPPORT\": \"BE WELL COPAY SUPPORT - 8889072820\"\n}"
+      },
+      {
+        "name": "empty_omni_check_verification_json",
+        "value": "{\n  \"request\": {\n    \"PatientPersonalInfo\": {\n      \"FirstName\": \"\",\n      \"LastName\": \"\",\n      \"DateOfBirth\": \"\",\n      \"Gender\": \"\",\n      \"City\": \"\",\n      \"State\": \"\",\n      \"Zipcode\": \"\",\n      \"Email\": \"\",\n      \"PhoneNumber\": \"\"\n    },\n    \"PatientMedicalInsurance\": {\n      \"name\": \"\",\n      \"plan_type\": \"\",\n      \"member_number\": \"\",\n      \"effective_date\": \"\",\n      \"group_number\": \"\",\n      \"bin\": \"\",\n      \"pcn\": \"\"\n    },\n    \"PatientPharmacyInsurance\": {\n      \"payer_name\": \"\",\n      \"payer_type\": \"\",\n      \"plan_bin\": \"\",\n      \"plan_pcn\": \"\",\n      \"plan_group\": \"\",\n      \"plan_id\": \"\",\n      \"plan_start_date\": \"\",\n      \"plan_end_date\": \"\"\n    },\n    \"CardRequestInfo\": {\n      \"Type\": \"\"\n    }\n  },\n  \"response\": {\n    \"CardResponseInfo\": {\n      \"MemberId\": \"\",\n      \"Bin\": \"\",\n      \"Pcn\": \"\",\n      \"Group\": \"\",\n      \"AllowableUses\": \"\",\n      \"BenefitAmount\": \"\",\n      \"Status\": \"\"\n    },\n    \"TransactionInfo\": {\n      \"TransactionId\": \"\",\n      \"TransactionCreatedDateTime\": \"\",\n      \"EnrollmentStatus\": \"\"\n    },\n    \"omniCheckInsuranceInfo\": [{\n      \"PBMName\": \"\",\n      \"PlanName\": \"\",\n      \"BIN\": \"\",\n      \"PCN\": \"\",\n      \"Group\": \"\",\n      \"MemberId\": \"\",\n      \"PBMPhone\": \"\",\n      \"PersonCode\": \"\",\n      \"StartDate\": \"\",\n      \"EndDate\": \"\",\n      \"IsCalendarYearPlan\": false,\n      \"PAPhone\": \"\",\n      \"PAFax\": \"\"\n    }]\n  }\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "Call Note",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "29g4eonr9p",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Disposition",
+  "labelTextColor": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onDropdownOpen": "",
+  "optionLabel": "description",
+  "optionValue": "description",
+  "originalBottomRow": 12,
+  "originalTopRow": 5,
+  "parentColumnSpace": 5.046875,
+  "parentId": "ntrc3x7t29",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"id\": 1,\n    \"description\": \"Call Note\"\n  },\n  {\n    \"id\": 2,\n    \"description\": \"Enrollment Question\"\n  },\n  {\n    \"id\": 3,\n    \"description\": \"Manual Reimbursement Inquiry - Patient\"\n  },\n  {\n    \"id\": 4,\n    \"description\": \"Manual Reimbursement Inquiry - Provider\"\n  },\n  {\n    \"id\": 5,\n    \"description\": \"Other\"\n  },\n  {\n    \"id\": 6,\n    \"description\": \"Patient Calling to Obtain Portal Login Credentials\"\n  },\n  {\n    \"id\": 7,\n    \"description\": \"Patient/Caregiver Called to Report AE/PC\"\n  },\n  {\n    \"id\": 8,\n    \"description\": \"Patient/Caregiver Calling for Processing Information\"\n  },\n  {\n    \"id\": 9,\n    \"description\": \"Patient/Caregiver Calling to Enroll\"\n  },\n  {\n    \"id\": 10,\n    \"description\": \"Patient/Caregiver Calling to Provide Additional Enrollment Information\"\n  },\n  {\n    \"id\": 11,\n    \"description\": \"Pharmacy Calling for Processing Information\"\n  },\n  {\n    \"id\": 12,\n    \"description\": \"Processing Inquiry - Override Requested\"\n  },\n  {\n    \"id\": 13,\n    \"description\": \"Program Benefit Question - Inquiring on Remaining Balance\"\n  },\n  {\n    \"id\": 14,\n    \"description\": \"Program Terms and Conditions Inquiry\"\n  },\n  {\n    \"id\": 15,\n    \"description\": \"Provider Calling for Debit Information\"\n  },\n  {\n    \"id\": 16,\n    \"description\": \"Provider Calling for Debit Processing Issues\"\n  },\n  {\n    \"id\": 17,\n    \"description\": \"Provider Calling for Portal Login Credentials\"\n  },\n  {\n    \"id\": 18,\n    \"description\": \"Send Not Eligible Letter\"\n  },\n  {\n    \"id\": 19,\n    \"description\": \"Send Welcome Letter\"\n  },\n  {\n    \"id\": 20,\n    \"description\": \"Transfer to Clinical / Nursing Team\"\n  },\n  {\n    \"id\": 21,\n    \"description\": \"Transfer to Hemlibra Case Managers\"\n  },\n  {\n    \"id\": 22,\n    \"description\": \"Transfer to PDMI Pharmacy Processing\"\n  },\n  {\n    \"id\": 23,\n    \"description\": \"Provider Calling to Link Patient\"\n  },\n  {\n    \"id\": 24,\n    \"description\": \"Provider Calling for Processing Information, Rather Than Just DC Info\"\n  },\n  {\n    \"id\": 25,\n    \"description\": \"Escalation\"\n  },\n  {\n    \"id\": 26,\n    \"description\": \"EOB Rejection Reason\"\n  },\n  {\n    \"id\": 27,\n    \"description\": \"Pharmacy Calling for Debit Information\"\n  },\n  {\n    \"id\": 28,\n    \"description\": \"Pharmacy Calling for Debit Processing Issues\"\n  }\n\n\n]",
+  "topRow": 5,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "y400vjjwyh",
+  "widgetName": "bps_disposition_sel"
+}

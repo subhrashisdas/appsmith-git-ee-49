@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `%`))(segmentation_status_sel.options, segmentation_status_sel.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "q9ygk3d9z3",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 19.8125,
+  "parentId": "r2dyg6xjgc",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"All\",\n    \"value\": \"%\"\n  },\n\t{\n    \"label\": \"New\",\n    \"value\": \"New\"\n  },\n  {\n    \"label\": \"Pending\",\n    \"value\": \"Pending\"\n  },\n\t  {\n    \"label\": \"Needs QC\",\n    \"value\": \"Needs QC\"\n  },\n  {\n    \"label\": \"Completed\",\n    \"value\": \"Completed\"\n  },\n\t{\n    \"label\": \"Escalation\",\n    \"value\": \"Escalation\"\n  },\n\t{\n    \"label\": \"Reinvestigation\",\n    \"value\": \"Reinvestigation\"\n  }\t\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "wcmvig5nsc",
+  "widgetName": "segmentation_status_sel"
+}

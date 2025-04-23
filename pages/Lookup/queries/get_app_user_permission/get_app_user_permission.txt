@@ -1,0 +1,1 @@
+SELECT permission_level FROM AppPermissions where user_name = {{ appsmith.user.username }};

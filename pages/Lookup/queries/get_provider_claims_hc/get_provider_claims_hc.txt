@@ -1,0 +1,2 @@
+SELECT top 1000 * FROM dbo.Claims
+WHERE paid_date_v IS NULL

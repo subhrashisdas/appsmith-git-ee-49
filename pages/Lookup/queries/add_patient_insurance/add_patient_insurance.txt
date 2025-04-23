@@ -1,0 +1,16 @@
+INSERT INTO PatientInsurance
+  (patient_id, insurance_type, plan_name, plan_type, plan_bin, plan_pcn, plan_group, plan_id, plan_start_date, plan_end_date, commercial_or_government)
+VALUES
+  (
+    {{ this.params.patient_id }},
+    {{ this.params.insurance_type }},
+    {{ this.params.plan_name }},
+		{{ this.params.plan_type }},
+		{{ this.params.plan_bin }},
+		{{ this.params.plan_pcn }},
+		{{ this.params.plan_group }},
+		{{ this.params.plan_id }},
+		{{ this.params.plan_start_date }},
+		{{ this.params.plan_end_date }},
+		{{ this.params.commercial_or_government }}
+  );

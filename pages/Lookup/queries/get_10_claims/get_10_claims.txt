@@ -1,0 +1,2 @@
+SELECT TOP 10 * FROM dbo.Claims
+WHERE payment_type LIKE '%check%'

@@ -1,0 +1,6 @@
+{
+    "login_id": {{ this.params.login_id }}, 
+    "password_hash": {{ this.params.password_hash }}, 
+    "user_type": {{ this.params.user_type }}, 
+    "xref_id": {{ this.params.xref_id }}
+ }

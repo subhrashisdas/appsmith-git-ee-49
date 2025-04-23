@@ -1,0 +1,846 @@
+{
+  "accentColor": "{{ api_url_sel.selectedOptionValue == \"DEVELOPMENT\" ? settings_helper_obj.dev_primary_color : settings_helper_obj.prod_primary_color }}",
+  "animateLoading": false,
+  "backgroundColor": "{{ api_url_sel.selectedOptionValue == \"DEVELOPMENT\" ? settings_helper_obj.dev_background_color : settings_helper_obj.prod_background_color \n}}",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 476,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "bottomRow": 4000,
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "flu2mudemb",
+      "leftColumn": 0,
+      "minHeight": 150,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 831.953125,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "Patient Detail",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "4nudz2q3k0",
+      "widgetName": "Canvas4"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "flu2mudemb",
+      "leftColumn": 0,
+      "minHeight": 150,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 831.953125,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "Claims",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ygmvp3rwm8",
+      "widgetName": "Canvas5"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "gl3tnljha5",
+      "leftColumn": 0,
+      "minHeight": 760,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabf3lz84l8dj",
+      "tabName": "Communications",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ggqo1k6nkz",
+      "widgetName": "Canvas7"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "t8an84aiiy",
+      "leftColumn": 0,
+      "minHeight": 490,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabby0d9z6zei",
+      "tabName": "Assoc. Providers",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ezf0nplk54",
+      "widgetName": "Canvas9"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "zk4apxlkm1",
+      "leftColumn": 0,
+      "minHeight": 770,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabwnj7h4zhyo",
+      "tabName": "Assoc. Patients",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "k0tqme8341",
+      "widgetName": "Canvas10"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "rcphpizmoo",
+      "leftColumn": 0,
+      "minHeight": 770,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabd1lulrqkcv",
+      "tabName": "Notes",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ef8utwx1jr",
+      "widgetName": "Canvas18"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "ziyarzk7f5",
+      "leftColumn": 0,
+      "minHeight": 510,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabd1yq5yanbi",
+      "tabName": "Attachments",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "7s3kijwnk0",
+      "widgetName": "Canvas20"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "jgdbjt79p5",
+      "leftColumn": 0,
+      "minHeight": 770,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tab9zmh12gr0o",
+      "tabName": "Insurance",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "zfzd2obur0",
+      "widgetName": "Canvas21"
+    },
+    {
+      "bottomRow": 4000,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "dpk972a9kf",
+      "leftColumn": 0,
+      "minHeight": 700,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabr3levo92cm",
+      "tabName": "Omni Check ",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "d0lq1d210m",
+      "widgetName": "Canvas26"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 4000,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "vfumktca0t",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1030,
+      "minWidth": 450,
+      "mobileBottomRow": 1031,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabnlqyal7vny",
+      "tabName": "Provider Detail",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ymlxl4aba0",
+      "widgetName": "Canvas31"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 4000,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "fpzwk7jpj8",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 3830,
+      "minWidth": 450,
+      "mobileBottomRow": 3831,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tab52klz1o177",
+      "tabName": "Attestation",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "pulto2hmmy",
+      "widgetName": "Canvas35"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 4000,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "l1cgo8o5p9",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 930,
+      "minWidth": 450,
+      "mobileBottomRow": 931,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabdc42lb1ghy",
+      "tabName": "Add Provider",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "b6nduom1xw",
+      "widgetName": "Canvas37"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 4000,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "554leujaxj",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 3940,
+      "minWidth": 450,
+      "mobileBottomRow": 3941,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabo9a3e70we4",
+      "tabName": "Provider Notes",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ry4srujb6g",
+      "widgetName": "Canvas38"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 4000,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "9v4ws5cxc0",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 3940,
+      "minWidth": 450,
+      "mobileBottomRow": 3941,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabqcwmqyug2e",
+      "tabName": "BPS Notes",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "hfabmd754p",
+      "widgetName": "Canvas39"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 4000,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "n7dvfin1bp",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 470,
+      "minWidth": 450,
+      "mobileBottomRow": 471,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 2315,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "79gp9e0bsf",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 2315,
+      "tabId": "tabvbr97ju0px",
+      "tabName": "Provider Pmts",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "eykhtn6ck4",
+      "widgetName": "Canvas40"
+    }
+  ],
+  "defaultTab": "Patient Detail",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tabf3lz84l8dj.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tabby0d9z6zei.isVisible"
+    },
+    {
+      "key": "tabsObj.tabwnj7h4zhyo.isVisible"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "tabsObj.tabd1lulrqkcv.isVisible"
+    },
+    {
+      "key": "tabsObj.tab9zmh12gr0o.isVisible"
+    },
+    {
+      "key": "tabsObj.tabr3levo92cm.isVisible"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "tabsObj.tabnlqyal7vny.isVisible"
+    },
+    {
+      "key": "tabsObj.tab52klz1o177.isVisible"
+    },
+    {
+      "key": "tabsObj.tabo9a3e70we4.isVisible"
+    },
+    {
+      "key": "tabsObj.tabqcwmqyug2e.isVisible"
+    },
+    {
+      "key": "tabsObj.tabvbr97ju0px.isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tabf3lz84l8dj.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    },
+    {
+      "key": "tabsObj.tabdrqiefgjwk.isVisible"
+    },
+    {
+      "key": "tabsObj.tabby0d9z6zei.isVisible"
+    },
+    {
+      "key": "tabsObj.tabwnj7h4zhyo.isVisible"
+    },
+    {
+      "key": "onTabSelected"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "tabsObj.tabd1lulrqkcv.isVisible"
+    },
+    {
+      "key": "tabsObj.tab9zmh12gr0o.isVisible"
+    },
+    {
+      "key": "tabsObj.tabr3levo92cm.isVisible"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "tabsObj.tabnlqyal7vny.isVisible"
+    },
+    {
+      "key": "tabsObj.tab52klz1o177.isVisible"
+    },
+    {
+      "key": "tabsObj.tabo9a3e70we4.isVisible"
+    },
+    {
+      "key": "tabsObj.tabqcwmqyug2e.isVisible"
+    },
+    {
+      "key": "tabsObj.tabvbr97ju0px.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{\nlookup_tab.selectedTab === \"Patients\" || lookup_tab.selectedTab === \"Providers\"\n}}",
+  "key": "h3a0elhy53",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "onTabSelected": "\n{{\n\npatient_lookup_table.selectedRow ?\npatient_helper_obj.update_active_tab(detail_tab.selectedTab, patient_lookup_table.selectedRow[\"Database ID\"]) : null\n\n}}",
+  "originalBottomRow": 114,
+  "originalTopRow": 50,
+  "parentColumnSpace": 36.171875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldShowTabs": true,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "Patient Detail",
+      "positioning": "vertical",
+      "widgetId": "4nudz2q3k0"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 2,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "Claims",
+      "positioning": "vertical",
+      "widgetId": "ygmvp3rwm8"
+    },
+    "tab52klz1o177": {
+      "id": "tab52klz1o177",
+      "index": 8,
+      "isDuplicateLabel": false,
+      "isVisible": "{{ lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "Attestation",
+      "widgetId": "pulto2hmmy"
+    },
+    "tab9zmh12gr0o": {
+      "id": "tab9zmh12gr0o",
+      "index": 6,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "Insurance",
+      "widgetId": "zfzd2obur0"
+    },
+    "tabby0d9z6zei": {
+      "id": "tabby0d9z6zei",
+      "index": 5,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Providers\"}}",
+      "label": "Assoc. Providers",
+      "widgetId": "ezf0nplk54"
+    },
+    "tabd1lulrqkcv": {
+      "id": "tabd1lulrqkcv",
+      "index": 9,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "Notes",
+      "widgetId": "ef8utwx1jr"
+    },
+    "tabd1yq5yanbi": {
+      "id": "tabd1yq5yanbi",
+      "index": 10,
+      "isDuplicateLabel": false,
+      "isVisible": false,
+      "label": "Attachments",
+      "widgetId": "7s3kijwnk0"
+    },
+    "tabdc42lb1ghy": {
+      "id": "tabdc42lb1ghy",
+      "index": 11,
+      "isDuplicateLabel": false,
+      "isVisible": false,
+      "label": "Add Provider",
+      "widgetId": "b6nduom1xw"
+    },
+    "tabf3lz84l8dj": {
+      "id": "tabf3lz84l8dj",
+      "index": 1,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "Communications",
+      "widgetId": "ggqo1k6nkz"
+    },
+    "tabnlqyal7vny": {
+      "id": "tabnlqyal7vny",
+      "index": 3,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Providers\"}}",
+      "label": "Provider Detail",
+      "widgetId": "ymlxl4aba0"
+    },
+    "tabo9a3e70we4": {
+      "id": "tabo9a3e70we4",
+      "index": 13,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Providers\"}}",
+      "label": "Provider Notes",
+      "widgetId": "ry4srujb6g"
+    },
+    "tabqcwmqyug2e": {
+      "id": "tabqcwmqyug2e",
+      "index": 14,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "BPS Notes",
+      "widgetId": "hfabmd754p"
+    },
+    "tabr3levo92cm": {
+      "id": "tabr3levo92cm",
+      "index": 7,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Patients\"}}",
+      "label": "Omni Check ",
+      "widgetId": "d0lq1d210m"
+    },
+    "tabvbr97ju0px": {
+      "id": "tabvbr97ju0px",
+      "index": 12,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Providers\"}}",
+      "label": "Provider Pmts",
+      "widgetId": "eykhtn6ck4"
+    },
+    "tabwnj7h4zhyo": {
+      "id": "tabwnj7h4zhyo",
+      "index": 4,
+      "isDuplicateLabel": false,
+      "isVisible": "{{lookup_tab.selectedTab === \"Providers\"}}",
+      "label": "Assoc. Patients",
+      "widgetId": "k0tqme8341"
+    }
+  },
+  "topRow": 72,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "79gp9e0bsf",
+  "widgetName": "detail_tab"
+}

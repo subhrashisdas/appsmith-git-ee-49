@@ -1,0 +1,4 @@
+{
+    "patient_id": {{ this.params.patient_id }},
+		"member_id": {{ this.params.new_member_id }}
+}

@@ -1,0 +1,1 @@
+SELECT * FROM dbo.ChangeLogs WHERE ref_id = {{this.params.member_id}} AND action_type = 'Update Patient Enrollment Status' ORDER By created DESC;

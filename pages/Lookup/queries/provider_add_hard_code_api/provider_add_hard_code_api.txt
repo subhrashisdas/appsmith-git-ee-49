@@ -1,0 +1,9 @@
+
+{
+"provider_npi": {{ this.params.provider_npi }},
+"provider_type": {{ this.params.provider_type }},
+"preferred_payment_method": {{ this.params.preferred_payment_method }},
+"provider_data": {{ this.params.provider_data }},
+"credentials_id": {{ this.params.credentials_id }},
+"email": {{ this.params.email }}
+}

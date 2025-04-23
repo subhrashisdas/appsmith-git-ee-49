@@ -1,0 +1,8 @@
+{
+    "provider_npi": "0000000009",
+"provider_type": "provider",
+"provider_data": {{ JSON.stringify({first_name: "appsmith", last_name: "testdoc", practice_name: "appsmith practice", phone_number: "1112223333", user_agreement: "N", "fax_opt_in": "N", address: {address_1: "123 Test St", address_2: "", city: "Testicity", state: "CA", zip_code: "90210"}, fax_numbers: {fax_number: "", fax_number_2: ""}, opt_in_fax_numbers: {fax1: "", fax2: "", fax3: ""} })}},
+"credentials_id": "NULL",
+"preferred_payment_method": "DEBIT",
+"email": "test9@test9.com",
+}

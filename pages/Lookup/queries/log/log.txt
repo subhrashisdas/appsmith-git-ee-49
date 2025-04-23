@@ -1,0 +1,1 @@
+INSERT INTO dbo.ChangeLogs (action_by, action_type, ref_id, ref_id_type, change_json) VALUES ( {{ appsmith.user.username }}, {{ this.params.action_type }}, {{ this.params.ref_id }}, {{ this.params.ref_id_type }}, {{ this.params.change_json }} )

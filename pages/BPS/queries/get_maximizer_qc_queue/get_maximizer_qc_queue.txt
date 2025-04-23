@@ -1,0 +1,1 @@
+SELECT * FROM dbo.PatientBPS WHERE (segmentation_status = 'Needs QC') 

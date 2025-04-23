@@ -1,0 +1,2 @@
+SELECT TOP 10 * FROM dbo.providers
+WHERE provider_id = '5808'

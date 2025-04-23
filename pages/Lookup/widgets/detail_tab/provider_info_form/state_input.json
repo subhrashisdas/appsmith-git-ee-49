@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 78,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  provider_lookup_table?.selectedRow?.[\"State\"] || \"\"\n))(state_input.options, state_input.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "4flftb397g",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "State",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 24,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 81,
+  "originalTopRow": 74,
+  "parentColumnSpace": 16.015625,
+  "parentId": "22o2mkf17g",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"AL\",\n    \"value\": \"AL\"\n  },\n  {\n    \"label\": \"AK\",\n    \"value\": \"AK\"\n  },\n  {\n    \"label\": \"AZ\",\n    \"value\": \"AZ\"\n  },\n  {\n    \"label\": \"AR\",\n    \"value\": \"AR\"\n  },\n  {\n    \"label\": \"CA\",\n    \"value\": \"CA\"\n  },\n  {\n    \"label\": \"CO\",\n    \"value\": \"CO\"\n  },\n  {\n    \"label\": \"CT\",\n    \"value\": \"CT\"\n  },\n  {\n    \"label\": \"DC (Washington)\",\n    \"value\": \"DC\"\n\t},\n  {\n    \"label\": \"DE\",\n    \"value\": \"DE\"\n  },\n  {\n    \"label\": \"FL\",\n    \"value\": \"FL\"\n  },\n  {\n    \"label\": \"GA\",\n    \"value\": \"GA\"\n  },\n  {\n    \"label\": \"HI\",\n    \"value\": \"HI\"\n  },\n  {\n    \"label\": \"ID\",\n    \"value\": \"ID\"\n  },\n  {\n    \"label\": \"IL\",\n    \"value\": \"IL\"\n  },\n  {\n    \"label\": \"IN\",\n    \"value\": \"IN\"\n  },\n  {\n    \"label\": \"IA\",\n    \"value\": \"IA\"\n  },\n  {\n    \"label\": \"KS\",\n    \"value\": \"KS\"\n  },\n  {\n    \"label\": \"KY\",\n    \"value\": \"KY\"\n  },\n  {\n    \"label\": \"LA\",\n    \"value\": \"LA\"\n  },\n  {\n    \"label\": \"ME\",\n    \"value\": \"ME\"\n  },\n  {\n    \"label\": \"MD\",\n    \"value\": \"MD\"\n  },\n  {\n    \"label\": \"MA\",\n    \"value\": \"MA\"\n  },\n  {\n    \"label\": \"MI\",\n    \"value\": \"MI\"\n  },\n  {\n    \"label\": \"MN\",\n    \"value\": \"MN\"\n  },\n  {\n    \"label\": \"MS\",\n    \"value\": \"MS\"\n  },\n  {\n    \"label\": \"MO\",\n    \"value\": \"MO\"\n  },\n  {\n    \"label\": \"MT\",\n    \"value\": \"MT\"\n  },\n  {\n    \"label\": \"NE\",\n    \"value\": \"NE\"\n  },\n  {\n    \"label\": \"NV\",\n    \"value\": \"NV\"\n  },\n  {\n    \"label\": \"NH\",\n    \"value\": \"NH\"\n  },\n  {\n    \"label\": \"NJ\",\n    \"value\": \"NJ\"\n  },\n  {\n    \"label\": \"NM\",\n    \"value\": \"NM\"\n  },\n  {\n    \"label\": \"NY\",\n    \"value\": \"NY\"\n  },\n  {\n    \"label\": \"NC\",\n    \"value\": \"NC\"\n  },\n  {\n    \"label\": \"ND\",\n    \"value\": \"ND\"\n  },\n  {\n    \"label\": \"OH\",\n    \"value\": \"OH\"\n  },\n  {\n    \"label\": \"OK\",\n    \"value\": \"OK\"\n  },\n  {\n    \"label\": \"OR\",\n    \"value\": \"OR\"\n  },\n  {\n    \"label\": \"PA\",\n    \"value\": \"PA\"\n  },\n  {\n    \"label\": \"RI\",\n    \"value\": \"RI\"\n  },\n  {\n    \"label\": \"SC\",\n    \"value\": \"SC\"\n  },\n  {\n    \"label\": \"SD\",\n    \"value\": \"SD\"\n  },\n  {\n    \"label\": \"TN\",\n    \"value\": \"TN\"\n  },\n  {\n    \"label\": \"TX\",\n    \"value\": \"TX\"\n  },\n  {\n    \"label\": \"UT\",\n    \"value\": \"UT\"\n  },\n  {\n    \"label\": \"VT\",\n    \"value\": \"VT\"\n  },\n  {\n    \"label\": \"VA\",\n    \"value\": \"VA\"\n  },\n  {\n    \"label\": \"WA\",\n    \"value\": \"WA\"\n  },\n  {\n    \"label\": \"WV\",\n    \"value\": \"WV\"\n  },\n  {\n    \"label\": \"WI\",\n    \"value\": \"WI\"\n  },\n  {\n    \"label\": \"WY\",\n    \"value\": \"WY\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 71,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "7kdi1z7uks",
+  "widgetName": "state_input"
+}

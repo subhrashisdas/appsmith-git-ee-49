@@ -1,0 +1,1 @@
+SELECT * FROM dbo.PatientBPS WHERE (original_enrollment_date_drug >= {{ this.params.start_date }} AND original_enrollment_date_drug <= {{ this.params.end_date }} AND segmentation_status LIKE {{ this.params.segmentation_status }} AND (enrollment_status = 'Active' OR enrollment_status = 'active'))

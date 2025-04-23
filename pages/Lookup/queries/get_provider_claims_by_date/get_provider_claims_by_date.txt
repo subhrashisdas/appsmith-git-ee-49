@@ -1,0 +1,2 @@
+SELECT * FROM dbo.Claims
+WHERE  (provider_id = '{{appsmith.store.provider_id}}') AND (program LIKE '{{appsmith.store.program}}') AND (payment_type LIKE '{{appsmith.store.payment_type}}') AND (((paid_date_v >= '{{appsmith.store.from_date}}') AND (paid_date_v <= '{{appsmith.store.to_date}}')) OR ((date_of_service >= '{{appsmith.store.from_date}}') AND (date_of_service <= '{{appsmith.store.to_date}}')))

@@ -1,0 +1,1 @@
+SELECT TOP 1 patient_id FROM dbo.copay_patients WHERE member_id = {{ this.params.member_id }}

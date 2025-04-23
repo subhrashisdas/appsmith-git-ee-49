@@ -1,0 +1,1 @@
+SELECT TOP 1 provider_id FROM dbo.providers WHERE provider_npi = '{{ appsmith.store.npi }}'

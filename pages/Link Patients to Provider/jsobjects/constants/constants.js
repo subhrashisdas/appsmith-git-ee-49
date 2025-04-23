@@ -1,0 +1,36 @@
+export default {
+	log_template: 'await log({action_type: "", ref_id: "", ref_id_type: "", change_json: JSON.stringify() })',
+	update: "Update",
+	add: "Add",
+	link_patient_to_provider: "Link Patient to Provider",
+	provider_pw_reset: "Reset Provider Password",
+	patient_pw_reset: "Reset Patient Password",
+	patient_card_registration: "Patient Paysign Card Registration",
+	update_patient_enrollment_status: "Update Patient Enrollment Status",
+	update_paysign_card_status_active: "Update Card Status to Active at Paysign",
+	update_paysign_card_status_inactive: "Update Card Status to Inactive at Paysign",
+	add_provider: "Add Provider",
+	update_provider: "Update Provider",
+	add_provider_user: "Add Provider User Credentials",
+	update_provider_user: "Update Provider User Credentials",	
+	add_patient: "Add Patient",
+	update_patient: "Update Patient",
+	add_patient_user: "Add Patient User Credentials",
+	update_patient_user: "Update Patient User Credentials",		
+	update_patient_member_group: "Update Patient Member Group",		
+	
+	add_attestation: "Add Provider Attestation",
+	update_attestation: "Update Provider Attestation",
+	add_notes: "Add Patient Notes",
+	update_notes: "Update Patient Notes",
+	omnicheck: "Run Omni Check",
+	add_insurance: "Add Insurance",
+	update_insurance: "Update Insurance",
+	npi: "Provider NPI",
+	provider_id: "Provider ID",
+	patient_id: "Patient ID",
+	member_id: "Patient Member ID",
+	database_id: "Database ID"
+	
+	
+}

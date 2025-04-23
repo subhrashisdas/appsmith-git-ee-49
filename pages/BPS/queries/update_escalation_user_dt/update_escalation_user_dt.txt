@@ -1,0 +1,5 @@
+UPDATE dbo.PatientBPS 
+SET 
+	date_escalation_status = {{ moment(Date.now()).format('YYYY-MM-DD hh:mm:ss') }}, 
+	user_escalation_status = {{this.params.username }}
+	WHERE patient_id = {{ this.params.patient_id }} 

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6411711beef71c3e5ff8b2e7_64b83dd2a45b204e8233caf9",
+  "id": "Reports_patient_claims_report_func",
+  "unpublishedCollection": {
+    "name": "patient_claims_report_func",
+    "pageId": "Reports",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

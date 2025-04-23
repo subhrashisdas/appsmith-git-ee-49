@@ -1,0 +1,7 @@
+UPDATE PatientNotes
+  SET user_name = {{ this.params.user_name }},
+			disposition_bucket= {{ this.params.disposition_bucket }},
+	    disposition = {{ this.params.disposition }}, 
+	 		notes = {{ this.params.notes }}, 
+			created = {{ this.params.created }}
+  WHERE id = {{ this.params.notes_id }};

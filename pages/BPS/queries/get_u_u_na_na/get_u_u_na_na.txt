@@ -1,0 +1,1 @@
+SELECT * FROM dbo.PatientBPS WHERE at_risk_for_mp_aap = 'Maximizer = U and AAP = U' OR at_risk_for_mp_aap = 'Maximizer = NA and AAP = NA'

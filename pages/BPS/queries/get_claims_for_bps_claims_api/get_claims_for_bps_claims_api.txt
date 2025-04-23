@@ -1,0 +1,17 @@
+SELECT DISTINCT [xolair].dbo.Claims.claim_id,
+    [xolair].dbo.Claims.patient_id,
+    [xolair].dbo.Claims.claim_status,
+    [xolair].dbo.Claims.payment_status,
+    COALESCE(JSON_VALUE([xolair].dbo.Claims.claim_data, '$.ndc'), [xolair].dbo.PBM_claims_crx_all.ndc) AS ndc,
+    COALESCE(JSON_VALUE([xolair].dbo.Claims.claim_data, '$.program_benefit'), JSON_VALUE([xolair].dbo.Claims.claim_data, '$.benefit_amount')) AS patient_benefit,
+    COALESCE(JSON_VALUE([xolair].dbo.Claims.claim_data, '$.patient_oop'), JSON_VALUE([xolair].dbo.Claims.claim_data, '$.patient_responsibility_amount'))  AS patient_oop,
+    COALESCE(JSON_VALUE([xolair].dbo.Claims.claim_data, '$.patient_responsibility_before_benefit_applied'), JSON_VALUE([xolair].dbo.Claims.claim_data, '$.out_of_pocket_amount')) AS patient_responsibility_before_benefit_applied,
+    [xolair].dbo.Claims.date_of_service,
+    CAST(COALESCE(JSON_VALUE([xolair].dbo.Claims.claim_data, '$."days supplied"'), [xolair].dbo.PBM_claims_crx_all.days_supplied) AS DECIMAL(10, 2)) AS days_supplied,
+    CAST(COALESCE(JSON_VALUE([xolair].dbo.Claims.claim_data, '$."drug quantity"'), [xolair].dbo.PBM_claims_crx_all.drug_quantity) AS DECIMAL(10, 2)) AS drug_quantity,
+    COALESCE(JSON_VALUE([xolair].dbo.Claims.claim_data, '$.providers.pharmacy.pharmacy_name'), [xolair].dbo.PBM_claims_crx_all.pharmacy_name) AS pharmacy_name,
+    NULL AS wac
+  FROM [xolair].dbo.Claims
+  LEFT JOIN [xolair].dbo.PBM_claims_crx_all ON [xolair].dbo.Claims.claim_id = [xolair].dbo.PBM_claims_crx_all.original_transaction_id
+  WHERE [xolair].dbo.Claims.patient_id = {{ this.params.patient_id }} AND [xolair].dbo.Claims.date_of_service LIKE '%2023%' AND [xolair].dbo.Claims.payment_type = 'PBM' AND [xolair].dbo.Claims.payment_status = 'Paid'
+  ORDER BY [xolair].dbo.Claims.date_of_service DESC, [xolair].dbo.Claims.claim_id DESC

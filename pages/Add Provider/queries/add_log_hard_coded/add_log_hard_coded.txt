@@ -1,0 +1,1 @@
+INSERT INTO dbo.ChangeLogs (action_by, action_type, ref_id, ref_id_type, change_json) VALUES ( {{ appsmith.user.username }}, {{ constants.add_provider }}, {{ "0000000002" }}, {{ constants.npi }}, {{ JSON.stringify({"key":"value"}) }} )

@@ -1,0 +1,105 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "menuItems.menuItem1.isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem1.isVisible"
+    },
+    {
+      "key": "menuItems.menuItem9jkipqow4m.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem9jkipqow4m.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "arh3uexjwq",
+  "label": "BPS Action",
+  "leftColumn": 1,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": "{{ appsmith.store.hide_bps_complete? false : true }}",
+      "label": "Save as Completed",
+      "onClick": "{{\n\nbps_helper_obj.add_bps_check(patient_lookup_table.selectedRow.patient_id, at_risk_mp_aap_sel.selectedOptionValue, at_risk_indicator1_sel.selectedOptionValue, at_risk_indicator2_sel.selectedOptionValue, at_risk_indicator3_inp.text, bps_program_phone_number_sel.selectedOptionValue, \"Completed\")\n\n\n\n}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Save as Needs QC",
+      "onClick": "{{ \n\nbps_helper_obj.add_bps_check(patient_lookup_table.selectedRow.patient_id, at_risk_mp_aap_sel.selectedOptionValue, at_risk_indicator1_sel.selectedOptionValue, at_risk_indicator2_sel.selectedOptionValue, at_risk_indicator3_inp.text, bps_program_phone_number_sel.selectedOptionLabel, 'Needs QC')\n\n}}",
+      "widgetId": ""
+    },
+    "menuItem9jkipqow4m": {
+      "id": "menuItem9jkipqow4m",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Save as Pending",
+      "onClick": "{{\n\nbps_helper_obj.add_bps_check(patient_lookup_table.selectedRow.patient_id, at_risk_mp_aap_sel.selectedOptionValue, at_risk_indicator1_sel.selectedOptionValue, at_risk_indicator2_sel.selectedOptionValue, at_risk_indicator3_inp.text, bps_program_phone_number_sel.selectedOptionValue, \"Pending\")\n\n\n\n}}",
+      "widgetId": "1phgfjh7hb"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 45,
+  "originalBottomRow": 32,
+  "originalTopRow": 28,
+  "parentColumnSpace": 5.467529296875,
+  "parentId": "i57yknxspu",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 32,
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 43,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6xqbq2qm54",
+  "widgetName": "bps_action_btn"
+}

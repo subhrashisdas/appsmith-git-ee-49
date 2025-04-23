@@ -1,0 +1,7 @@
+{
+		"member_id": {{this.params.patient_member_id}},
+		"npi": {{this.params.provider_npi}},
+		"provider_type": {{this.params.provider_type}}
+
+	
+}

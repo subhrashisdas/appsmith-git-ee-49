@@ -1,0 +1,4 @@
+UPDATE dbo.PatientBPS 
+SET 
+omni_check_verification_data = {{this.params.omni_check_verification_data}} 
+WHERE patient_id = {{this.params.patient_id}} 

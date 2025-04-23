@@ -1,0 +1,1 @@
+SELECT TOP 1000 * FROM dbo.providers WHERE email LIKE '%@healix.net%'

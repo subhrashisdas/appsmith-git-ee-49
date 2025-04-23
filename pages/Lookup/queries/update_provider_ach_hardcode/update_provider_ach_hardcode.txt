@@ -1,0 +1,11 @@
+{
+    "provider_id": ,
+    "ach_info": {
+			"account_name": "",
+			"bank": "",
+      "bank_address": "",
+      "routing_number": "",
+      "account_number": "",
+      "request_date": "2023-01-01"
+    }
+}

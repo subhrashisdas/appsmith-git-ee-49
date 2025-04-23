@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "6501fad8d1f2e53322acdd2e_65020161d1f2e53322acddf2",
+  "id": "Lookup_settings_helper_obj",
+  "unpublishedCollection": {
+    "name": "settings_helper_obj",
+    "pageId": "Lookup",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "dev_background_color",
+        "value": "\"#fef2f2\""
+      },
+      {
+        "name": "dev_primary_color",
+        "value": "\"#b91c1c\""
+      },
+      {
+        "name": "prod_background_color",
+        "value": "\"#FFFFFF\""
+      },
+      {
+        "name": "prod_primary_color",
+        "value": "appsmith.theme.colors.primaryColor"
+      }
+    ]
+  }
+}

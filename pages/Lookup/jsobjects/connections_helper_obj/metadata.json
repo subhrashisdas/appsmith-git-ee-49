@@ -1,0 +1,72 @@
+{
+  "gitSyncId": "64fbcb24d1f2e53322acd040_64fc913ad1f2e53322acd0f3",
+  "id": "Lookup_connections_helper_obj",
+  "unpublishedCollection": {
+    "name": "connections_helper_obj",
+    "pageId": "Lookup",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "db_url",
+        "value": "\"https://vcqwjw4ew6gxw3iphqia3lfqmy0pogqi.lambda-url.ap-south-1.on.aws\""
+      },
+      {
+        "name": "ps_url",
+        "value": "connections_helper_obj.ps_prod"
+      },
+      {
+        "name": "hemlibra_prod",
+        "value": "\"http://web-api.netswitchcard.com\""
+      },
+      {
+        "name": "hemlibra_dev",
+        "value": "\"http://hemlibra-api.netswitchcard.com:4001\""
+      },
+      {
+        "name": "xolair_dev_url",
+        "value": "\"http://xolair-api.netswitchcard.com\""
+      },
+      {
+        "name": "xolair_prod_url",
+        "value": "\"https://web-xolair-api.netswitchcard.com\""
+      },
+      {
+        "name": "ps_prod",
+        "value": "\"https://copay-portalapi.paysign.net/copay/api/v1\""
+      },
+      {
+        "name": "ps_dev",
+        "value": "\"https://copay-portalapi-stage.aws.paysign.com/copay/api/v1\""
+      },
+      {
+        "name": "ps_prod_domain",
+        "value": "\"https://vcqwjw4ew6gxw3iphqia3lfqmy0pogqi.lambda-url.ap-south-1.on.aws\""
+      },
+      {
+        "name": "ps_prod_program",
+        "value": "\"64\""
+      },
+      {
+        "name": "ps_prod_sponsor",
+        "value": "'8585511152'"
+      },
+      {
+        "name": "ps_prod_group",
+        "value": "\"100073A\""
+      },
+      {
+        "name": "ps_prod_user",
+        "value": "\"COPAY_USER\""
+      },
+      {
+        "name": "ps_prod_pw",
+        "value": "\"g|w.M2=JAAA121lsKAsS1qw?8'ew-H\""
+      },
+      {
+        "name": "ps_key_token",
+        "value": "\"HTI6*>R9ZBFU!01G4<^F94KT!$BL2R0$8N66S42~SC*LVKLPP1IIHOJ<%HAH\""
+      }
+    ]
+  }
+}

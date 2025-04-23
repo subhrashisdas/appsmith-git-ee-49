@@ -1,0 +1,4 @@
+
+UPDATE PatientBPS
+  SET segmentation_status = 'Pending'
+  WHERE id = '2';

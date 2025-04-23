@@ -1,0 +1,10 @@
+INSERT INTO OmniCheckHistory
+  (user_name, patient_id, determination, submission_json, response_json)
+VALUES
+  (
+    {{ this.params.user_name }},
+    {{ this.params.patient_id }},
+    {{ this.params.determination  || 'NULL' }},
+		{{ this.params.submission_json || '{}' }},
+		{{ this.params.response_json || '{}' }}
+  );

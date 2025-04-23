@@ -1,0 +1,5 @@
+{
+    "member_id": "1145012851",
+    "npi": "1417377839",
+    "patient_provider_type": "Primary"    
+}

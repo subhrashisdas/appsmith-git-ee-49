@@ -1,0 +1,1 @@
+SELECT TOP 10 * FROM dbo.linked_providers_tsv_2

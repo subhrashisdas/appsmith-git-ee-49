@@ -1,0 +1,12 @@
+UPDATE BPSCheckHistory
+  SET user_name = {{ this.params.user_name }},
+			patient_id = {{ this.params.patient_id }},
+    	at_risk_for_mp_aap = {{ this.params.at_risk_for_mp_aap }},
+			at_risk_indicator_1 = {{ this.params.at_risk_indicator_1 }},
+			at_risk_indicator_2 = {{ this.params.at_risk_indicator_2 }},
+			at_risk_indicator_3 = {{ this.params.at_risk_indicator_3 }},
+			program_name_and_phone_number = {{ this.params.program_name_and_phone_number }},
+			submission_json = {{ this.params.submission_json }},
+			response_json = {{ this.params.response_json }}
+ 		WHERE id = {{ this.params.id }};
+  

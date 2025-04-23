@@ -1,0 +1,4 @@
+{
+	"patient_id": 177387,
+	"maximizer_patient": 0
+}

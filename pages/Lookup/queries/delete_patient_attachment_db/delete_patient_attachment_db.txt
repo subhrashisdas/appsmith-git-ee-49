@@ -1,0 +1,1 @@
+DELETE FROM PatientAttachments WHERE id = {{ this.params.attachment_id }};

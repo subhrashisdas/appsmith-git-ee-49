@@ -1,0 +1,83 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 51,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  attestation_history_table.selectedRow.provider_type ))(attestation_provider_type_sel.options, attestation_provider_type_sel.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "3b0p9vbnfj",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Is attestation from Provider Office or Specialty Pharmacy (SP)?\n",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 19,
+  "onDropdownClose": "{{ attestation_provider_type_sel.selectedOptionValue == 'SP' ? showAlert(\"Need attestation from prescriber, please have prescriber office contact.\") : \"do nothing\" }}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 51,
+  "originalTopRow": 44,
+  "parentColumnSpace": 9.03125,
+  "parentId": "vo9o2ymtsi",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "[\n  {\n    \"name\": \"Provider Office\",\n    \"code\": \"PO\"\n  },\n  {\n    \"name\": \"Specialty Pharmacy \",\n    \"code\": \"SP\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 44,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "79ujb9d5de",
+  "widgetName": "attestation_provider_type_sel"
+}

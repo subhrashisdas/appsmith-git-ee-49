@@ -1,0 +1,1035 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 152,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": false,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_npi.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_npi.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_npi.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_type.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_type.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_type.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.first_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.first_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.first_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.last_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.last_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.last_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.practice_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.practice_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.practice_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.phone_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.phone_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.phone_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.user_agreement.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.user_agreement.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.user_agreement.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_opt_in.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_opt_in.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_opt_in.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.address_1.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.address_1.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.address_1.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.address_2.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.address_2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.address_2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.city.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.city.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.city.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.state.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.state.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.state.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.zip_code.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.zip_code.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.children.zip_code.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.address.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.children.fax_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.children.fax_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.children.fax_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.children.fax_number_2.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.children.fax_number_2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.children.fax_number_2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.fax_numbers.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax1.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax1.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax1.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax2.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax3.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax3.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.children.fax3.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.children.opt_in_fax_numbers.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider_data.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.credentials_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.credentials_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.credentials_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.preferred_payment_method.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.preferred_payment_method.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.preferred_payment_method.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.email.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.email.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.email.borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vtsdvz7f41",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 42,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 1,
+  "onSubmit": "{{ provider_obj.add_new_provider(add_provider_json_frm.formData)}}",
+  "originalBottomRow": 162,
+  "originalTopRow": 1,
+  "parentColumnSpace": 10.8125,
+  "parentId": "b6nduom1xw",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "credentials_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "accessor": "credentials_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.credentials_id))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "credentials_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Credentials Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "credentials_id",
+          "position": 3,
+          "sourceData": "NULL"
+        },
+        "email": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "accessor": "email",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.email))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "email",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Email",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "email",
+          "position": 5
+        },
+        "preferred_payment_method": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "accessor": "preferred_payment_method",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.preferred_payment_method))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "fieldType": "Select",
+          "identifier": "preferred_payment_method",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Preferred Payment Method",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"DEBIT\",\n    \"value\": \"DEBIT\"\n  },\n  {\n    \"label\": \"ACH\",\n    \"value\": \"ACH\"\n  },\n  {\n    \"label\": \"CHECK\",\n    \"value\": \"CHECK\"\n  }\n]",
+          "originalIdentifier": "preferred_payment_method",
+          "position": 4,
+          "serverSideFiltering": false,
+          "sourceData": "DEBIT"
+        },
+        "provider_data": {
+          "accessor": "provider_data",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "boxShadow": "none",
+          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "cellBoxShadow": "none",
+          "children": {
+            "address": {
+              "accessor": "address",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "cellBoxShadow": "none",
+              "children": {
+                "address_1": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "address_1",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.address.address_1))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "address_1",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": true,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Address 1",
+                  "labelTextSize": "0.875rem",
+                  "maxChars": "255",
+                  "originalIdentifier": "address_1",
+                  "position": 0,
+                  "sourceData": ""
+                },
+                "address_2": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "address_2",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.address.address_2))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "address_2",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Address 2",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "address_2",
+                  "position": 1,
+                  "sourceData": ""
+                },
+                "city": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "city",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.address.city))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "city",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": true,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "City",
+                  "labelTextSize": "0.875rem",
+                  "maxChars": "255",
+                  "originalIdentifier": "city",
+                  "position": 2,
+                  "sourceData": ""
+                },
+                "state": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "state",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.address.state))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Select",
+                  "identifier": "state",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isFilterable": false,
+                  "isRequired": true,
+                  "isVisible": true,
+                  "label": "State",
+                  "labelTextSize": "0.875rem",
+                  "options": "  [{\"label\":\"Alabama\",\"value\":\"AL\"},{\"label\":\"Alaska\",\"value\":\"AK\"},{\"label\":\"Arizona\",\"value\":\"AZ\"},{\"label\":\"Arkansas\",\"value\":\"AR\"},{\"label\":\"California\",\"value\":\"CA\"},{\"label\":\"Colorado\",\"value\":\"CO\"},{\"label\":\"Connecticut\",\"value\":\"CT\"},{\"label\":\"Delaware\",\"value\":\"DE\"},{\"label\":\"Florida\",\"value\":\"FL\"},{\"label\":\"Georgia\",\"value\":\"GA\"},{\"label\":\"Hawaii\",\"value\":\"HI\"},{\"label\":\"Idaho\",\"value\":\"ID\"},{\"label\":\"Illinois\",\"value\":\"IL\"},{\"label\":\"Indiana\",\"value\":\"IN\"},{\"label\":\"Iowa\",\"value\":\"IA\"},{\"label\":\"Kansas\",\"value\":\"KS\"},{\"label\":\"Kentucky\",\"value\":\"KY\"},{\"label\":\"Louisiana\",\"value\":\"LA\"},{\"label\":\"Maine\",\"value\":\"ME\"},{\"label\":\"Maryland\",\"value\":\"MD\"},{\"label\":\"Massachusetts\",\"value\":\"MA\"},{\"label\":\"Michigan\",\"value\":\"MI\"},{\"label\":\"Minnesota\",\"value\":\"MN\"},{\"label\":\"Mississippi\",\"value\":\"MS\"},{\"label\":\"Missouri\",\"value\":\"MO\"},{\"label\":\"Montana\",\"value\":\"MT\"},{\"label\":\"Nebraska\",\"value\":\"NE\"},{\"label\":\"Nevada\",\"value\":\"NV\"},{\"label\":\"New Hampshire\",\"value\":\"NH\"},{\"label\":\"New Jersey\",\"value\":\"NJ\"},{\"label\":\"New Mexico\",\"value\":\"NM\"},{\"label\":\"New York\",\"value\":\"NY\"},{\"label\":\"North Carolina\",\"value\":\"NC\"},{\"label\":\"North Dakota\",\"value\":\"ND\"},{\"label\":\"Ohio\",\"value\":\"OH\"},{\"label\":\"Oklahoma\",\"value\":\"OK\"},{\"label\":\"Oregon\",\"value\":\"OR\"},{\"label\":\"Pennsylvania\",\"value\":\"PA\"},{\"label\":\"Rhode Island\",\"value\":\"RI\"},{\"label\":\"South Carolina\",\"value\":\"SC\"},{\"label\":\"South Dakota\",\"value\":\"SD\"},{\"label\":\"Tennessee\",\"value\":\"TN\"},{\"label\":\"Texas\",\"value\":\"TX\"},{\"label\":\"Utah\",\"value\":\"UT\"},{\"label\":\"Vermont\",\"value\":\"VT\"},{\"label\":\"Virginia\",\"value\":\"VA\"},{\"label\":\"Washington\",\"value\":\"WA\"},{\"label\":\"West Virginia\",\"value\":\"WV\"},{\"label\":\"Wisconsin\",\"value\":\"WI\"},{\"label\":\"Wyoming\",\"value\":\"WY\"}]",
+                  "originalIdentifier": "state",
+                  "position": 3,
+                  "serverSideFiltering": false,
+                  "sourceData": "GA"
+                },
+                "zip_code": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "zip_code",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.address.zip_code))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "zip_code",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": true,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Zip Code",
+                  "labelTextSize": "0.875rem",
+                  "maxChars": "5",
+                  "originalIdentifier": "zip_code",
+                  "position": 4,
+                  "sourceData": "",
+                  "validation": "[\\d]{5}"
+                }
+              },
+              "dataType": "object",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.address))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Object",
+              "identifier": "address",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isVisible": true,
+              "label": "Address",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "address",
+              "position": 6,
+              "sourceData": {
+                "address_1": "",
+                "address_2": "",
+                "city": "",
+                "state": "GA",
+                "zip_code": ""
+              }
+            },
+            "fax_numbers": {
+              "accessor": "fax_numbers",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "cellBoxShadow": "none",
+              "children": {
+                "fax_number": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "fax_number",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.fax_numbers.fax_number))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "fax_number",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Fax Number",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "fax_number",
+                  "position": 0,
+                  "sourceData": ""
+                },
+                "fax_number_2": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "fax_number_2",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.fax_numbers.fax_number_2))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "fax_number_2",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Fax Number 2",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "fax_number_2",
+                  "position": 1,
+                  "sourceData": ""
+                }
+              },
+              "dataType": "object",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.fax_numbers))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Object",
+              "identifier": "fax_numbers",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isVisible": true,
+              "label": "Fax Numbers",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "fax_numbers",
+              "position": 7,
+              "sourceData": {
+                "fax_number": "",
+                "fax_number_2": ""
+              }
+            },
+            "fax_opt_in": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "accessor": "fax_opt_in",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.fax_opt_in))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "fax_opt_in",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": false,
+              "label": "Fax Opt In",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "fax_opt_in",
+              "position": 5,
+              "sourceData": "N"
+            },
+            "first_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "accessor": "first_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.first_name))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "first_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "First Name",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "first_name",
+              "position": 0,
+              "sourceData": ""
+            },
+            "last_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "accessor": "last_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.last_name))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "last_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": true,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Last Name",
+              "labelTextSize": "0.875rem",
+              "maxChars": "255",
+              "originalIdentifier": "last_name",
+              "position": 1,
+              "sourceData": ""
+            },
+            "opt_in_fax_numbers": {
+              "accessor": "opt_in_fax_numbers",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "cellBoxShadow": "none",
+              "children": {
+                "fax1": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "fax1",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.opt_in_fax_numbers.fax1))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "fax1",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Fax 1",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "fax1",
+                  "position": 0,
+                  "sourceData": ""
+                },
+                "fax2": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "fax2",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.opt_in_fax_numbers.fax2))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "fax2",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Fax 2",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "fax2",
+                  "position": 1,
+                  "sourceData": ""
+                },
+                "fax3": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "accessor": "fax3",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.opt_in_fax_numbers.fax3))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "fax3",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Fax 3",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "fax3",
+                  "position": 2,
+                  "sourceData": ""
+                }
+              },
+              "dataType": "object",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.opt_in_fax_numbers))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Object",
+              "identifier": "opt_in_fax_numbers",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isVisible": false,
+              "label": "Opt In Fax Numbers",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "opt_in_fax_numbers",
+              "position": 8,
+              "sourceData": {
+                "fax1": "",
+                "fax2": "",
+                "fax3": ""
+              }
+            },
+            "phone_number": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "accessor": "phone_number",
+              "allowDialCodeChange": false,
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.phone_number))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "dialCode": "+1",
+              "fieldType": "Phone Number Input",
+              "identifier": "phone_number",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": true,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Phone Number",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "phone_number",
+              "position": 3,
+              "sourceData": ""
+            },
+            "practice_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "accessor": "practice_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.practice_name))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "practice_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": true,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Practice Name",
+              "labelTextSize": "0.875rem",
+              "maxChars": "255",
+              "originalIdentifier": "practice_name",
+              "position": 2,
+              "sourceData": ""
+            },
+            "user_agreement": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "accessor": "user_agreement",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data.user_agreement))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "user_agreement",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": false,
+              "label": "User Agreement",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "user_agreement",
+              "position": 4,
+              "sourceData": "N"
+            }
+          },
+          "dataType": "object",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_data))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "fieldType": "Object",
+          "identifier": "provider_data",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Provider Data",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "provider_data",
+          "position": 2,
+          "sourceData": {
+            "address": {
+              "address_1": "",
+              "address_2": "",
+              "city": "",
+              "state": "GA",
+              "zip_code": ""
+            },
+            "fax_numbers": {
+              "fax_number": "",
+              "fax_number_2": ""
+            },
+            "fax_opt_in": "N",
+            "first_name": "",
+            "last_name": "",
+            "opt_in_fax_numbers": {
+              "fax1": "",
+              "fax2": "",
+              "fax3": ""
+            },
+            "phone_number": "",
+            "practice_name": "",
+            "user_agreement": "N"
+          }
+        },
+        "provider_npi": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "accessor": "provider_npi",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_npi))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "provider_npi",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": true,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Provider Npi",
+          "labelTextSize": "0.875rem",
+          "maxChars": "10",
+          "originalIdentifier": "provider_npi",
+          "position": 0,
+          "regex": "[\\d]{10}",
+          "sourceData": ""
+        },
+        "provider_type": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "accessor": "provider_type",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider_type))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+          "fieldType": "Select",
+          "identifier": "provider_type",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Provider Type",
+          "labelTextSize": "0.875rem",
+          "options": "[\n  {\n    \"label\": \"provider\",\n    \"value\": \"provider\"\n  },\n  {\n    \"label\": \"Billing\",\n    \"value\": \"Billing\"\n  }\n]",
+          "originalIdentifier": "provider_type",
+          "position": 1,
+          "serverSideFiltering": false,
+          "sourceData": "provider"
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(add_provider_json_frm.sourceData, add_provider_json_frm.formData, add_provider_json_frm.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "date_of_birth": "20/02/1990",
+        "employee_id": 1001,
+        "name": "John"
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{ provider_obj.blank }}",
+  "submitButtonLabel": "Submit",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "tags": [
+    "Suggested",
+    "Layout"
+  ],
+  "title": "New Provider Info",
+  "topRow": 1,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "0qyw50qsdy",
+  "widgetName": "add_provider_json_frm"
+}

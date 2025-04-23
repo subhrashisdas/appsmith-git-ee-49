@@ -1,0 +1,10 @@
+INSERT INTO BPSCheckHistory
+  (user_name, patient_id, submission_json, response_json, api_type)
+VALUES
+  (
+		{{ this.params.user_name }},
+		{{ this.params.patient_id }},
+		{{ this.params.submission_json }},
+		{{ this.params.response_json }},
+		{{ this.params.api_type }}
+	);

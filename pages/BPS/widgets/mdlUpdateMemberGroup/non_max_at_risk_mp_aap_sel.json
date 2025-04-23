@@ -1,0 +1,93 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{member_group_select.selectedOptionLabel=='Standard'}}",
+  "key": "dykp7cl04u",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Updated At Risk for MP | AAP",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 2,
+  "onDropdownClose": "{{ bps_helper_obj.update_at_risk_indicators_update_member_group(non_max_at_risk_mp_aap_sel.selectedOptionValue)\n}}",
+  "onOptionChange": "",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 23,
+  "originalTopRow": 15,
+  "parentColumnSpace": 1.298828125,
+  "parentId": "usdoxl4p9c",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "[\n{\n\"name\": \"Maximizer = N and AAP = Y\",\n\"code\": \"Maximizer = N and AAP = Y\"\n},\n{\n\"name\": \"Maximizer = N and AAP = N\",\n\"code\": \"Maximizer = N and AAP = N\"\n}\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 15,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ee2lt77o2q",
+  "widgetName": "non_max_at_risk_mp_aap_sel"
+}

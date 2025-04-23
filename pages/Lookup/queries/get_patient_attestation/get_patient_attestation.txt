@@ -1,0 +1,1 @@
+SELECT * FROM PatientAttestation where patient_id = {{ this.params.patient_id }};

@@ -1,0 +1,3 @@
+SELECT maximizer_program_name FROM dbo.PatientBPS
+WHERE
+patient_id = {{ this.params.patient_id }}

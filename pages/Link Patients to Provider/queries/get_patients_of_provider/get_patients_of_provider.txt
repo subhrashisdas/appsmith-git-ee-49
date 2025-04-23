@@ -1,0 +1,1 @@
+SELECT * FROM dbo.Patients_Providers WHERE provider_id = {{ appsmith.store.provider_id }}

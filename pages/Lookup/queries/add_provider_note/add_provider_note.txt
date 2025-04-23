@@ -1,0 +1,12 @@
+INSERT INTO ProviderNotes
+  (user_name, provider_id, provider_npi, disposition, notes, created)
+VALUES
+  (
+    {{ this.params.user_name }},
+    {{ this.params.provider_id }},
+		{{ this.params.provider_npi }},
+    {{ this.params.disposition }},
+		{{ this.params.notes }},
+		{{ this.params.created }}
+
+  );

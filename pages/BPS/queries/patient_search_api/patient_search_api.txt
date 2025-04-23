@@ -1,0 +1,5 @@
+{
+    
+{{ this.params.selected_option_value }}: {{ this.params.input_text }}
+    
+}

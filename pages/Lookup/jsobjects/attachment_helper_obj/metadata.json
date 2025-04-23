@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "64e50b9da45b204e8233d58c_64eb5fd9a45b204e8233d8a9",
+  "id": "Lookup_attachment_helper_obj",
+  "unpublishedCollection": {
+    "name": "attachment_helper_obj",
+    "pageId": "Lookup",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "constants",
+        "value": "{\n  s3_path: \"hemlibra\",\n  s3_bucket: \"notes-attachment-files\"\n}"
+      }
+    ]
+  }
+}

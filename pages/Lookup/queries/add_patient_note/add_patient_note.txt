@@ -1,0 +1,12 @@
+INSERT INTO PatientNotes
+  (user_name, patient_id, disposition_bucket, disposition, notes, created)
+VALUES
+  (
+    {{ this.params.user_name }},
+    {{ this.params.patient_id }},
+		{{ this.params.disposition_bucket }},
+    {{ this.params.disposition }},
+		{{ this.params.notes }},
+		{{ this.params.created }}
+
+  );

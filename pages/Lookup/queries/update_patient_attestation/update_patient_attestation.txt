@@ -1,0 +1,11 @@
+UPDATE PatientAttestation
+  SET user_name = {{ this.params.user_name }},
+			patient_id = {{ this.params.patient_id }},
+    	provider_npi = {{ this.params.provider_npi }},
+			spoke_with = {{ this.params.spoke_with }},
+			covered_by_government_insurance = {{ this.params.covered_by_government_insurance }},
+			date_of_attestation = {{ this.params.date_of_attestation }},
+			provider_type = {{ this.params.provider_type }},
+			demographic_confirmed = {{ this.params.demographic_confirmed }},
+			attest_to_not_use_gov_reimbursement = {{ this.params.attest_to_not_use_gov_reimbursement }}
+ 		WHERE id = {{ this.params.id }};

@@ -1,0 +1,1 @@
+DELETE FROM dbo.PatientBPS WHERE patient_id = 2010625 -- Specify a valid condition here. Removing the condition may delete everything in the table!

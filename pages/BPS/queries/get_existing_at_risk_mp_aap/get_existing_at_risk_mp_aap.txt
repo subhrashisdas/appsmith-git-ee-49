@@ -1,0 +1,1 @@
+SELECT at_risk_for_mp_aap FROM dbo.PatientBPS WHERE patient_id = {{ this.params.patient_id }}

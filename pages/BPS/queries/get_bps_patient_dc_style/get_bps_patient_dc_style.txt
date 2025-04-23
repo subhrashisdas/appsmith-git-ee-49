@@ -1,0 +1,42 @@
+SELECT TOP(100)
+       [id]
+      ,[risrx_xolair_helper_db].[dbo].[PatientBPS].[patient_id]
+      ,[at_risk_for_mp_aap]
+      ,[xolair].[dbo].[copay_patients].[original_enrollment_date_drug]
+      ,[segmentation_status]
+      ,[maximizer_program_name]
+      ,[maximizer]
+      ,[flag]
+      ,[values_to_check]
+      ,[coinsurance]
+      ,[xolair].[dbo].[copay_patients].[member_id]
+      ,JSON_VALUE([xolair].[dbo].[copay_patients].[enrollment_data], '$.first_name') AS first_name
+      ,JSON_VALUE([xolair].[dbo].[copay_patients].[enrollment_data], '$.last_name') AS last_name
+      ,COALESCE(JSON_VALUE([xolair].[dbo].[copay_patients].[enrollment_data], '$.date_of_birth'), JSON_VALUE([xolair].[dbo].[copay_patients].[enrollment_data], '$.dob')) AS dob
+      ,COALESCE(JSON_VALUE([xolair].[dbo].[copay_patients].[enrollment_data], '$.address.zip_code'), JSON_VALUE([xolair].[dbo].[copay_patients].[enrollment_data], '$.address.zip')) AS zip
+      ,[xolair].[dbo].[copay_patients].[enrollment_data]
+      ,[xolair].[dbo].[copay_patients].[verification_data] AS omni_check_verification_data
+      ,[xolair].[dbo].[copay_patients].[enrollment_status]
+      ,[xolair].[dbo].[copay_patients].[enrollment_source]
+      ,JSON_VALUE([xolair].[dbo].[copay_patients].[verification_data], '$.response.omniCheckInsuranceInfo[0].PlanName') AS rx_insurance_name
+      ,JSON_VALUE([xolair].[dbo].[copay_patients].[verification_data], '$.response.omniCheckInsuranceInfo[0].BIN') AS plan_bin
+      ,JSON_VALUE([xolair].[dbo].[copay_patients].[verification_data], '$.response.omniCheckInsuranceInfo[0].PCN') AS plan_pcn
+      ,JSON_VALUE([xolair].[dbo].[copay_patients].[verification_data], '$.response.omniCheckInsuranceInfo[0].Group') AS plan_group
+      ,[date_new_status]
+      ,[date_pending_status]
+      ,[date_completed_status]
+      ,[date_escalation_status]
+      ,[date_reinvestigation_status]
+      ,[date_needs_qc_approval]
+      ,[date_qc_approval]
+      ,[user_new_status]
+      ,[user_pending_status]
+      ,[user_completed_status]
+      ,[user_escalation_status]
+      ,[user_reinvestigation_status]
+      ,[user_needs_qc_approval]
+      ,[user_qc_approval]
+      ,[last_date_of_service]
+      ,[created]
+  FROM [risrx_xolair_helper_db].[dbo].[PatientBPS]
+  LEFT JOIN [xolair].[dbo].[copay_patients] ON [risrx_xolair_helper_db].[dbo].[PatientBPS].[patient_id] = [xolair].[dbo].[copay_patients].[patient_id]

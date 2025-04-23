@@ -1,0 +1,1 @@
+SELECT * FROM dbo.copay_patients WHERE enrollment_status = 'Pending' OR enrollment_status = 'Duplicate'

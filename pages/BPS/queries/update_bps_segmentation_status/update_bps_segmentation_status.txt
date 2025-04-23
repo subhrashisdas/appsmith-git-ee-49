@@ -1,0 +1,4 @@
+
+UPDATE PatientBPS
+  SET segmentation_status = {{ this.params.segmentation_status }}
+  WHERE patient_id = {{ this.params.patient_id }};

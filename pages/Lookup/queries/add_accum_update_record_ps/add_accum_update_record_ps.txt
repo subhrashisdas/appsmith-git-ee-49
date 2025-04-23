@@ -1,0 +1,14 @@
+INSERT INTO PSAccumUpdate
+  (patient_id, accum_amt_client_program, accum_amt_rx_program, available_balance_before_update, available_balance_after_update, member_id, accum_amt_submitted_for_update, date_of_service, user_name)
+VALUES
+  (
+    {{ this.params.patient_id }},
+    {{this.params.accum_amt_client_program }},
+    {{ this.params.accum_amt_rx_program }},
+		{{ this.params.available_balance_before_update }},
+		{{ this.params.available_balance_after_update }},
+		{{ this.params.member_id }},
+		{{ this.params.accum_amt_submitted_for_update }},
+		{{ this.params.date_of_service }},
+		{{ appsmith.user.username }}
+  );

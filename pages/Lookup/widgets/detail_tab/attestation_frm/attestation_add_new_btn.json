@@ -1,0 +1,58 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 68,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "jxthdnx0cv",
+  "leftColumn": 47,
+  "minWidth": 120,
+  "onClick": "{{ \n\npatient_helper_obj.add_new_attestation({patient_id: patient_lookup_table.selectedRow[\"Database ID\"], provider_npi: attestation_npi_inp.text, spoke_with: attestation_spoke_with_inp.inputText, covered_by_government_insurance: attestation_has_gov_ins_sel.selectedOptionValue, date_of_attestation: attestation_date_pkr.formattedDate, provider_type: attestation_provider_type_sel.selectedOptionValue, demographic_confirmed: attestation_demographic_sel.selectedOptionValue, attest_to_not_use_gov_reimbursement: attestation_no_gov_reimb_sel.selectedOptionValue}) \n\n}}",
+  "originalBottomRow": 68,
+  "originalTopRow": 64,
+  "parentId": "vo9o2ymtsi",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Add New",
+  "topRow": 64,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "31h9v9k7bl",
+  "widgetName": "attestation_add_new_btn"
+}

@@ -1,0 +1,4 @@
+{
+	"provider_id": {{this.params.provider_id}},
+	"associated_providers" : {{ this.params.associated_providers}}
+}

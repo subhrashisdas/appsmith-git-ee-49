@@ -1,0 +1,228 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderColor": "#e0dede",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 185,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "bottomRow": 1810,
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kb8iiju8un",
+      "leftColumn": 0,
+      "minHeight": 150,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "19mgh1c3xu",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 475.5,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "BPS ",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "r2dyg6xjgc",
+      "widgetName": "Canvas1"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 1810,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "0kxujci4vf",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1020,
+      "minWidth": 450,
+      "mobileBottomRow": 1021,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1228.375,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "19mgh1c3xu",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1228.375,
+      "tabId": "tabptuessk67k",
+      "tabName": "QC QUEUE",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "2q52uwhf2j",
+      "widgetName": "Canvas43"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 1810,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "liyh6f709e",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1070,
+      "minWidth": 450,
+      "mobileBottomRow": 1071,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1228.375,
+      "mobileTopRow": 1,
+      "parentColumnSpace": 1,
+      "parentId": "19mgh1c3xu",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1228.375,
+      "tabId": "tab1dqgzxlh3t",
+      "tabName": "U|U & N/A|N/A ",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "pail7asqdv",
+      "widgetName": "Canvas45"
+    }
+  ],
+  "defaultTab": "",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tabsObj.tabptuessk67k.isVisible"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTabSelected"
+    },
+    {
+      "key": "tabsObj.tabbuwjng06k6.isVisible"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "tabsObj.tabptuessk67k.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTabSelected"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "kcpazku4zg",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "onTabSelected": "{{\nmain_tab.selectedTab == \"BPS\" ?\nbps_helper_obj.patient_bps_lookup(true, segmentation_status_sel.selectedOptionValue, enrollment_date_from_pkr.formattedDate, enrollment_date_to_pkr.formattedDate) : \"no need to refresh\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t}}",
+  "originalBottomRow": 185,
+  "originalTopRow": 0,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldScrollContents": true,
+  "shouldShowTabs": true,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isVisible": true,
+      "label": "BPS ",
+      "positioning": "vertical",
+      "widgetId": "r2dyg6xjgc"
+    },
+    "tab1dqgzxlh3t": {
+      "id": "tab1dqgzxlh3t",
+      "index": 2,
+      "isVisible": true,
+      "label": "U|U & N/A|N/A ",
+      "widgetId": "pail7asqdv"
+    },
+    "tabptuessk67k": {
+      "id": "tabptuessk67k",
+      "index": 1,
+      "isVisible": "{{  appsmith.user.username in permissions_helper_obj.user_permission_level ? permissions_helper_obj.user_permission_level[appsmith.user.username] <= 2 : false }}",
+      "label": "QC QUEUE",
+      "widgetId": "2q52uwhf2j"
+    }
+  },
+  "topRow": 0,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "19mgh1c3xu",
+  "widgetName": "main_tab"
+}

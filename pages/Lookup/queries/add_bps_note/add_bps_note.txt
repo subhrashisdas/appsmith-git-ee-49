@@ -1,0 +1,11 @@
+INSERT INTO BPSNotes
+  (user_name, patient_id, disposition, notes, created)
+VALUES
+  (
+    {{ this.params.user_name }},
+    {{ this.params.patient_id }},
+    {{ this.params.disposition }},
+		{{ this.params.notes }},
+		{{ this.params.created }}
+
+  );

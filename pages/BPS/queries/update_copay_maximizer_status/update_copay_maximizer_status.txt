@@ -1,0 +1,4 @@
+{
+	"patient_id": {{ this.params.patient_id }},
+	"maximizer_patient": {{ this.params.maximizer_patient }}
+}

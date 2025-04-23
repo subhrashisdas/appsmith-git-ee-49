@@ -1,0 +1,1 @@
+SELECT user_id, login_id, xref_id FROM dbo.Users WHERE login_id = '{{ this.params.login_id }}'

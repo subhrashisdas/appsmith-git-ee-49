@@ -1,0 +1,1 @@
+SELECT TOP 1 member_id FROM dbo.copay_patients WHERE prior_member_id = '{{ appsmith.store.xr_number }}'

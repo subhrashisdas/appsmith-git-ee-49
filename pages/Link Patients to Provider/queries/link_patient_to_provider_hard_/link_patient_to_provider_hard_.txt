@@ -1,0 +1,7 @@
+{
+    
+    "member_id": "1147184278",
+    "npi": "1881960524",
+    "provider_type": "Primary"
+   
+}

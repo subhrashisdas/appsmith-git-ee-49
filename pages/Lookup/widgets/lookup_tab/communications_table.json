@@ -32,16 +32,16 @@
   },
   "columnOrder": [
     "customColumn1",
+    "Document_Name",
     "Member_ID",
     "Document_Type",
-    "Document_Name",
     "S3_Bucket",
     "S3_Key",
     "Document_Received_Date",
     "Document_Sent_Date",
     "Document_Processed_Date"
   ],
-  "columnUpdatedAt": 1691779335686,
+  "columnUpdatedAt": 1745561760796,
   "columnWidthMap": {
     "Document_Name": 559,
     "Document_Processed_Date": 252,

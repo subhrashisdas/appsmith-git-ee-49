@@ -58,7 +58,7 @@
   "menuItems": {
     "menuItem1": {
       "id": "menuItem1",
-      "index": 0,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Date Range",
@@ -67,7 +67,7 @@
     },
     "menuItem2": {
       "id": "menuItem2",
-      "index": 1,
+      "index": 0,
       "isDisabled": false,
       "isVisible": true,
       "label": "Today",
@@ -76,7 +76,7 @@
     },
     "menuItem3": {
       "id": "menuItem3",
-      "index": 2,
+      "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "Yesterday",

@@ -5,11 +5,11 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 476,
+  "bottomRow": 194,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
-      "bottomRow": 4000,
+      "bottomRow": 4020,
       "canExtend": true,
       "detachFromLayout": true,
       "displayName": "Canvas",
@@ -41,7 +41,7 @@
       "widgetName": "Canvas4"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1100,
       "canExtend": true,
       "detachFromLayout": true,
       "displayName": "Canvas",
@@ -73,7 +73,7 @@
       "widgetName": "Canvas5"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -104,7 +104,7 @@
       "widgetName": "Canvas7"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -135,7 +135,7 @@
       "widgetName": "Canvas9"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -166,7 +166,7 @@
       "widgetName": "Canvas10"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -197,7 +197,7 @@
       "widgetName": "Canvas18"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -228,7 +228,7 @@
       "widgetName": "Canvas20"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -259,7 +259,7 @@
       "widgetName": "Canvas21"
     },
     {
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -291,7 +291,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -338,7 +338,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 4000,
+      "bottomRow": 3300,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -385,7 +385,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 4000,
+      "bottomRow": 1520,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -432,7 +432,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -479,7 +479,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -526,7 +526,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 4000,
+      "bottomRow": 1050,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -704,8 +704,8 @@
   "minDynamicHeight": 10,
   "minWidth": 450,
   "onTabSelected": "\n{{\n\npatient_lookup_table.selectedRow ?\npatient_helper_obj.update_active_tab(detail_tab.selectedTab, patient_lookup_table.selectedRow[\"Database ID\"]) : null\n\n}}",
-  "originalBottomRow": 114,
-  "originalTopRow": 50,
+  "originalBottomRow": 476,
+  "originalTopRow": 72,
   "parentColumnSpace": 36.171875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -838,7 +838,7 @@
       "widgetId": "k0tqme8341"
     }
   },
-  "topRow": 72,
+  "topRow": 85,
   "type": "TABS_WIDGET",
   "version": 3,
   "widgetId": "79gp9e0bsf",

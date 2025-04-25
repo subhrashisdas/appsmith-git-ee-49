@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 398,
+  "bottomRow": 402,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -246,8 +246,8 @@
   "mobileLeftColumn": 42,
   "mobileRightColumn": 64,
   "mobileTopRow": 238,
-  "originalBottomRow": 399,
-  "originalTopRow": 293,
+  "originalBottomRow": 398,
+  "originalTopRow": 292,
   "parentColumnSpace": 7.84375,
   "parentId": "4nudz2q3k0",
   "parentRowSpace": 10,
@@ -585,7 +585,7 @@
     "Layout"
   ],
   "title": "Omni Check Result - Response Data",
-  "topRow": 292,
+  "topRow": 293,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": false,
   "version": 1,

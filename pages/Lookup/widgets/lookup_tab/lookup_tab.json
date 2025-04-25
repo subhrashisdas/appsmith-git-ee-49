@@ -5,11 +5,11 @@
   "borderColor": "#e0dede",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 72,
+  "bottomRow": 85,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
-      "bottomRow": 630,
+      "bottomRow": 760,
       "canExtend": true,
       "detachFromLayout": true,
       "displayName": "Canvas",
@@ -41,7 +41,7 @@
       "widgetName": "Canvas110"
     },
     {
-      "bottomRow": 630,
+      "bottomRow": 760,
       "canExtend": true,
       "detachFromLayout": true,
       "displayName": "Canvas",
@@ -73,7 +73,7 @@
       "widgetName": "Canvas210"
     },
     {
-      "bottomRow": 630,
+      "bottomRow": 760,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -104,7 +104,7 @@
       "widgetName": "Canvas310"
     },
     {
-      "bottomRow": 740,
+      "bottomRow": 760,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -135,7 +135,7 @@
       "widgetName": "Canvas17"
     },
     {
-      "bottomRow": 630,
+      "bottomRow": 760,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -267,7 +267,7 @@
   "minDynamicHeight": 10,
   "minWidth": 450,
   "onTabSelected": "",
-  "originalBottomRow": 50,
+  "originalBottomRow": 72,
   "originalTopRow": 5,
   "parentColumnSpace": 19.8125,
   "parentId": "0",

@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 480,
+  "bottomRow": 486,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -704,8 +704,8 @@
   "minDynamicHeight": 10,
   "minWidth": 450,
   "onTabSelected": "\n{{\n\npatient_lookup_table.selectedRow ?\npatient_helper_obj.update_active_tab(detail_tab.selectedTab, patient_lookup_table.selectedRow[\"Database ID\"]) : null\n\n}}",
-  "originalBottomRow": 480,
-  "originalTopRow": 72,
+  "originalBottomRow": 484,
+  "originalTopRow": 76,
   "parentColumnSpace": 36.171875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -838,7 +838,7 @@
       "widgetId": "k0tqme8341"
     }
   },
-  "topRow": 72,
+  "topRow": 78,
   "type": "TABS_WIDGET",
   "version": 3,
   "widgetId": "79gp9e0bsf",

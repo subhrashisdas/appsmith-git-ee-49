@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 61,
+  "bottomRow": 67,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -1350,7 +1350,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{\nappsmith.store?.mapped_patients || []\n\n}}",
   "textSize": "0.875rem",
-  "topRow": 4,
+  "topRow": 10,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 1,

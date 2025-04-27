@@ -33,7 +33,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "gf3ifsjdgs",
-  "leftColumn": 19,
+  "leftColumn": 23,
   "minWidth": 120,
   "onClick": "{{\n\nawait patient_helper_obj.patient_lookup(patient_lookup_txt.text, patient_lookup_list.selectedOptionValue, \"\", \"\")\n\n}}",
   "parentColumnSpace": 19.5,
@@ -44,7 +44,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 27,
+  "rightColumn": 31,
   "searchTags": [
     "click",
     "submit"

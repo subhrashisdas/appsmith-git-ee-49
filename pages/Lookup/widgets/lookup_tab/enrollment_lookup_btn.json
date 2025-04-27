@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 10,
   "boxShadow": "none",
   "configureMenuItems": {
     "config": {
@@ -59,7 +59,7 @@
   "isVisible": true,
   "key": "orvqiqb7j2",
   "label": "Enrollment Lookup",
-  "leftColumn": 54,
+  "leftColumn": 50,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
@@ -106,9 +106,9 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 64,
+  "rightColumn": 60,
   "sourceData": "[]",
-  "topRow": 0,
+  "topRow": 6,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "7as1ov713f",
